@@ -3,6 +3,7 @@
   "short_name": "BSCBRC",
   "description": "Learning, Testing & Building on Base",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0B1120",
   "theme_color": "#0052FF",
