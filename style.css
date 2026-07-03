@@ -169,6 +169,7 @@ justify-content:space-between;
 align-items:center;
 
 height:78px;
+position:relative;
 }
 
 .logo{
@@ -903,12 +904,6 @@ margin:0 auto 16px;
 
 @media(max-width:768px){
 
-.nav-links{
-
-display:none;
-
-}
-
 .follow-btn{
 
 display:none;
@@ -1193,25 +1188,39 @@ user-select:none;
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    .menu-toggle {
-        display: block;
+@media (max-width:768px){
+
+    .follow-btn{
+        display:none;
     }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background: #08142d;
-        padding: 20px;
+    .menu-toggle{
+        display:block;
+        z-index:1001;
     }
 
-    .nav-links.active {
-        display: flex;
+    nav{
+        position:relative;
     }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        position:absolute;
+        top:60px;
+        right:0;
+        width:220px;
+        background:#08142d;
+        border-radius:16px;
+        padding:20px;
+        gap:18px;
+        box-shadow:0 20px 50px rgba(0,0,0,.35);
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
 }
 
 /* Smooth Hover */
