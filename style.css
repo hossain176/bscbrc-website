@@ -145,31 +145,30 @@ padding:110px 0;
 =========================== */
 
 .navbar{
-
 position:sticky;
-
 top:0;
+z-index:1000;
 
-z-index:999;
+background:rgba(11,17,32,.65);
+backdrop-filter:blur(22px);
+-webkit-backdrop-filter:blur(22px);
 
-backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(255,255,255,.08);
 
-background:rgba(11,17,32,.75);
+box-shadow:0 10px 35px rgba(0,0,0,.25);
 
-border-bottom:1px solid var(--border);
-
+transition:
+background .35s ease,
+box-shadow .35s ease,
+padding .35s ease;
 }
 
 .navbar .container{
-
 display:flex;
-
 justify-content:space-between;
-
 align-items:center;
 
-padding:18px 0;
-
+height:78px;
 }
 
 .logo{
@@ -187,11 +186,14 @@ font-size:1.15rem;
 }
 
 .logo img{
+width:48px;
+height:48px;
+border-radius:12px;
+transition:transform .3s ease;
+}
 
-width:42px;
-
-height:42px;
-
+.logo:hover img{
+transform:rotate(-4deg) scale(1.05);
 }
 
 .nav-links{
