@@ -223,6 +223,9 @@ if (menuToggle && navLinks) {
     };
 }
 
+document.querySelector(".menu-toggle").onclick = function () {
+    alert("Menu Button Works");
+};
 
 /* ==========================================
    End
