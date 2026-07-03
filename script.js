@@ -1,5 +1,3 @@
-script.js (Production)
-
 /* ==========================================
    BSCBRC Website v1.0
    Production JavaScript
@@ -99,7 +97,7 @@ document
 
 const sections = document.querySelectorAll("section");
 
-const navLinks = document.querySelectorAll(".nav-links a");
+const mobileNav = document.querySelector(".nav-links");
 
 window.addEventListener("scroll",()=>{
 
@@ -209,24 +207,14 @@ console.log(
    Mobile Menu Toggle
 =========================== */
 
-
 const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+const mobileNav = document.querySelector(".nav-links");
 
-if (menuToggle && navLinks) {
-    menuToggle.onclick = function () {
-        if (navLinks.style.display === "flex") {
-            navLinks.style.display = "none";
-        } else {
-            navLinks.style.display = "flex";
-        }
-    };
+if (menuToggle && mobileNav) {
+    menuToggle.addEventListener("click", () => {
+        mobileNav.classList.toggle("active");
+    });
 }
-
-document.querySelector(".menu-toggle").onclick = function () {
-    alert("Menu Button Works");
-};
-
 /* ==========================================
    End
 ========================================== */
