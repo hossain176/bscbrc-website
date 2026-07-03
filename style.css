@@ -28,17 +28,6 @@ overflow-x:hidden;
 =========================== */
 
 
-header {
-    display: flex;
-    align-items: center;
-    padding: 20px 30px;
-    background-color: #1a1a2e;
-    color: white;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-
 :root{
 
 --primary:#0052FF;
