@@ -1184,6 +1184,36 @@ user-select:none;
 
 }
 
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: #08142d;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
 /* Smooth Hover */
 
 .feature-card,
