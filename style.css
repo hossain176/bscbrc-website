@@ -19,6 +19,28 @@ html{
 scroll-behavior:smooth;
 }
 
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+}
+
+.logo img{
+    width:44px;
+    height:44px;
+    display:block;
+    object-fit:contain;
+}
+
+.logo span{
+    font-size:1.2rem;
+    font-weight:700;
+    color:#fff;
+    letter-spacing:.4px;
+}
+
+
 body{
 overflow-x:hidden;
 }
@@ -427,16 +449,11 @@ align-items:center;
 }
 
 .hero-logo{
-
-width:min(380px,100%);
-
-height:auto;
-
-filter:
-drop-shadow(0 25px 60px rgba(0,82,255,.28));
-
-animation:floatLogo 5s ease-in-out infinite;
-
+    width:220px;
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
 }
 
 /* ===========================
