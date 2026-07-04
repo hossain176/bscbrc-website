@@ -1588,6 +1588,7 @@ grid-template-columns:1fr;
 
 }
 
+
 /* ===========================
    Hero Parallax
 =========================== */
@@ -1596,3 +1597,4 @@ grid-template-columns:1fr;
     transition:transform .15s linear;
     will-change:transform;
 }
+
