@@ -1675,3 +1675,8 @@ color:#ffffff;
 padding-left:6px;
 
 }
+
+.feature-card{
+    text-decoration:none;
+    color:inherit;
+}
