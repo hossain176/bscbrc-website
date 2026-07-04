@@ -1454,3 +1454,28 @@ transform:translate(120px,260px) scale(.95);
 .feature-card:hover::before{
     opacity:1;
 }
+
+/* ===========================
+   Premium Section Divider
+=========================== */
+
+section{
+    position:relative;
+}
+
+section::after{
+    content:"";
+    position:absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    width:180px;
+    height:1px;
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(0,82,255,.35),
+        transparent
+    );
+}
+
