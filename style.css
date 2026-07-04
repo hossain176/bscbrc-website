@@ -1479,3 +1479,105 @@ section::after{
     );
 }
 
+/* ===========================
+   Featured Articles
+=========================== */
+
+.articles-grid{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:28px;
+
+}
+
+.article-card{
+
+padding:34px;
+
+border-radius:24px;
+
+background:linear-gradient(
+180deg,
+rgba(17,24,39,.92),
+rgba(11,17,32,.82)
+);
+
+border:1px solid rgba(255,255,255,.08);
+
+transition:.35s ease;
+
+}
+
+.article-card:hover{
+
+transform:translateY(-10px);
+
+border-color:rgba(0,82,255,.35);
+
+box-shadow:0 25px 60px rgba(0,82,255,.15);
+
+}
+
+.article-tag{
+
+display:inline-block;
+
+padding:8px 14px;
+
+border-radius:999px;
+
+background:rgba(0,82,255,.12);
+
+color:#8db6ff;
+
+font-size:.75rem;
+
+font-weight:700;
+
+margin-bottom:18px;
+
+}
+
+.article-card h3{
+
+font-size:1.4rem;
+
+margin-bottom:16px;
+
+}
+
+.article-card p{
+
+color:var(--muted);
+
+margin-bottom:24px;
+
+}
+
+.article-card a{
+
+font-weight:700;
+
+color:#6EA8FF;
+
+}
+
+.article-card a:hover{
+
+color:#ffffff;
+
+}
+
+@media(max-width:992px){
+
+.articles-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
