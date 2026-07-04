@@ -1236,3 +1236,50 @@ cursor:pointer;
 will-change:transform;
 
 }
+
+/* ===========================
+   Premium Loader
+=========================== */
+
+#loader{
+    position:fixed;
+    inset:0;
+    background:#0B1120;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:99999;
+    transition:opacity .6s ease, visibility .6s ease;
+}
+
+#loader.hide{
+    opacity:0;
+    visibility:hidden;
+}
+
+.loader-content{
+    text-align:center;
+}
+
+.loader-content img{
+    width:90px;
+    height:90px;
+    margin:auto;
+    animation:loaderFloat 1.8s ease-in-out infinite;
+}
+
+.loader-content h2{
+    margin-top:18px;
+    font-size:28px;
+    font-weight:800;
+    letter-spacing:1px;
+}
+
+@keyframes loaderFloat{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+}
