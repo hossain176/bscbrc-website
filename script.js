@@ -294,6 +294,53 @@ document.querySelectorAll(".feature-card").forEach(card=>{
 
 });
 
+/* ===========================
+   Animated Counter
+=========================== */
+
+const counters = document.querySelectorAll(".counter");
+
+const counterObserver = new IntersectionObserver((entries) => {
+
+    entries.forEach(entry => {
+
+        if (!entry.isIntersecting) return;
+
+        const counter = entry.target;
+        const target = +counter.dataset.target;
+
+        let current = 0;
+
+        const update = () => {
+
+            const increment = Math.ceil(target / 40);
+
+            current += increment;
+
+            if(current > target){
+                current = target;
+            }
+
+            counter.textContent = current + "+";
+
+            if(current < target){
+                requestAnimationFrame(update);
+            }
+
+        };
+
+        update();
+
+        counterObserver.unobserve(counter);
+
+    });
+
+},{
+    threshold:.5
+});
+
+counters.forEach(counter=>counterObserver.observe(counter));
+
 /* ==========================================
    End
 ========================================== */
