@@ -1508,7 +1508,11 @@ rgba(11,17,32,.82)
 
 border:1px solid rgba(255,255,255,.08);
 
-transition:.35s ease;
+   transition:
+transform .35s ease,
+box-shadow .35s ease;
+transform-style:preserve-3d;
+will-change:transform;
 
 }
 
