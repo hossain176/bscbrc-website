@@ -236,6 +236,7 @@ window.addEventListener("load", () => {
    Scroll Progress
 =========================== */
 
+
 const progressBar = document.getElementById("progress-bar");
 
 window.addEventListener("scroll", () => {
@@ -250,6 +251,7 @@ window.addEventListener("scroll", () => {
     progressBar.style.width = progress + "%";
 
 });
+
 
 /* ==========================================
    End
