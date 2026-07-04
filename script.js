@@ -96,9 +96,7 @@ document
 =========================== */
 
 const sections = document.querySelectorAll("section");
-
-const mobileNav = document.querySelector(".nav-links");
-
+const navLinks = document.querySelectorAll(".nav-links a");
 window.addEventListener("scroll",()=>{
 
 let current="";
