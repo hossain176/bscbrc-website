@@ -1377,3 +1377,39 @@ transform:translate(120px,260px) scale(.95);
     transition:width .15s linear;
 }
 
+/* ===========================
+   Back To Top Button
+=========================== */
+
+#backToTop{
+    position:fixed;
+    right:24px;
+    bottom:24px;
+    width:54px;
+    height:54px;
+    border:none;
+    border-radius:50%;
+    background:linear-gradient(135deg,#0052FF,#3B82F6);
+    color:#fff;
+    font-size:24px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    opacity:0;
+    visibility:hidden;
+    transform:translateY(20px);
+    transition:all .3s ease;
+    box-shadow:0 15px 40px rgba(0,82,255,.35);
+    z-index:999;
+}
+
+#backToTop.show{
+    opacity:1;
+    visibility:visible;
+    transform:translateY(0);
+}
+
+#backToTop:hover{
+    transform:translateY(-4px) scale(1.05);
+}
