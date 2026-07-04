@@ -232,6 +232,25 @@ window.addEventListener("load", () => {
 
 });
 
+/* ===========================
+   Scroll Progress
+=========================== */
+
+const progressBar = document.getElementById("progress-bar");
+
+window.addEventListener("scroll", () => {
+
+    const totalHeight =
+        document.documentElement.scrollHeight -
+        window.innerHeight;
+
+    const progress =
+        (window.scrollY / totalHeight) * 100;
+
+    progressBar.style.width = progress + "%";
+
+});
+
 /* ==========================================
    End
 ========================================== */
