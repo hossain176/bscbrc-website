@@ -341,6 +341,24 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 counters.forEach(counter=>counterObserver.observe(counter));
 
+/* ===========================
+   Hero Parallax
+=========================== */
+
+const parallaxItems = document.querySelectorAll(".parallax");
+
+document.addEventListener("mousemove",(e)=>{
+
+    const x = (window.innerWidth / 2 - e.clientX) / 35;
+    const y = (window.innerHeight / 2 - e.clientY) / 35;
+
+    parallaxItems.forEach(item=>{
+        item.style.transform =
+        `translate(${x}px, ${y}px)`;
+    });
+
+});
+
 /* ==========================================
    End
 ========================================== */
