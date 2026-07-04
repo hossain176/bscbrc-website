@@ -215,6 +215,23 @@ if (menuToggle && mobileNav) {
         mobileNav.classList.toggle("active");
     });
 }
+
+/* ===========================
+   Loader
+=========================== */
+
+window.addEventListener("load", () => {
+
+    const loader = document.getElementById("loader");
+
+    setTimeout(() => {
+
+        loader.classList.add("hide");
+
+    }, 1200);
+
+});
+
 /* ==========================================
    End
 ========================================== */
