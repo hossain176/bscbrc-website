@@ -362,17 +362,29 @@ flex-wrap:wrap;
 }
 
 .primary-btn{
-display:inline-flex;
-align-items:center;
-justify-content:center;
-padding:17px 34px;
-border-radius:18px;
-background:linear-gradient(135deg,#0052FF,#3B82F6);
-color:#fff;
-font-weight:700;
-font-size:1rem;
-transition:all .35s ease;
-box-shadow:0 15px 40px rgba(0,82,255,.30);
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:17px 34px;
+    border-radius:18px;
+
+    background:linear-gradient(
+        270deg,
+        #0052FF,
+        #3B82F6,
+        #6EA8FF,
+        #0052FF
+    );
+
+    background-size:300% 300%;
+
+    animation:gradientMove 6s ease infinite;
+
+    color:#fff;
+    font-weight:700;
+    font-size:1rem;
+    transition:all .35s ease;
+    box-shadow:0 15px 40px rgba(0,82,255,.30);
 }
 
 .primary-btn:hover{
@@ -820,6 +832,22 @@ filter:drop-shadow(0 25px 50px rgba(0,82,255,.18));
 50%{
 filter:drop-shadow(0 35px 80px rgba(0,82,255,.45));
 }
+
+}
+
+@keyframes gradientMove{
+
+    0%{
+        background-position:0% 50%;
+    }
+
+    50%{
+        background-position:100% 50%;
+    }
+
+    100%{
+        background-position:0% 50%;
+    }
 
 }
 
