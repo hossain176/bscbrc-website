@@ -1333,3 +1333,19 @@ transform:translate(120px,260px) scale(.95);
 }
 
 }
+
+/* ===========================
+   Scroll Progress Bar
+=========================== */
+
+#progress-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:4px;
+    background:linear-gradient(90deg,#0052FF,#3B82F6,#7aa7ff);
+    z-index:99999;
+    transition:width .15s linear;
+}
+
