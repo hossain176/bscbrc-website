@@ -1283,3 +1283,39 @@ will-change:transform;
         transform:translateY(-10px);
     }
 }
+
+/* ===========================
+   Animated Background Glow
+=========================== */
+
+.hero::after{
+    content:"";
+    position:absolute;
+    width:700px;
+    height:700px;
+    border-radius:50%;
+    background:radial-gradient(circle,
+        rgba(0,82,255,.22),
+        transparent 70%);
+    top:-220px;
+    left:-220px;
+    filter:blur(60px);
+    animation:moveGlow 16s ease-in-out infinite alternate;
+    pointer-events:none;
+}
+
+@keyframes moveGlow{
+
+0%{
+transform:translate(0,0) scale(1);
+}
+
+50%{
+transform:translate(220px,120px) scale(1.2);
+}
+
+100%{
+transform:translate(120px,260px) scale(.95);
+}
+
+}
