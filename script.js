@@ -341,6 +341,7 @@ const counterObserver = new IntersectionObserver((entries) => {
 
 counters.forEach(counter=>counterObserver.observe(counter));
 
+
 /* ===========================
    Hero Parallax
 =========================== */
