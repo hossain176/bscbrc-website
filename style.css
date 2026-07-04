@@ -1383,10 +1383,10 @@ transform:translate(120px,260px) scale(.95);
 
 #backToTop{
     position:fixed;
-    right:24px;
-    bottom:24px;
-    width:54px;
-    height:54px;
+    right:20px;
+    bottom:20px;
+    width:48px;
+    height:48px;
     border:none;
     border-radius:50%;
     background:linear-gradient(135deg,#0052FF,#3B82F6);
@@ -1412,4 +1412,5 @@ transform:translate(120px,260px) scale(.95);
 
 #backToTop:hover{
     transform:translateY(-4px) scale(1.05);
+    box-shadow:0 0 25px rgba(0,82,255,.55);
 }
