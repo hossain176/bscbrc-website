@@ -1680,3 +1680,16 @@ padding-left:6px;
     text-decoration:none;
     color:inherit;
 }
+
+
+.feature-card.active {
+    border: 2px solid #0052FF;
+    background: rgba(0,82,255,0.08);
+    transform: translateY(-4px);
+}
+
+.feature-card.active h3 {
+    color: #0052FF;
+}
+
+
