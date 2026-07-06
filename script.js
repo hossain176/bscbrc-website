@@ -462,7 +462,7 @@ if (guideSearch && searchResults) {
 
         const keyword = guideSearch.value.toLowerCase().trim();
        clearSearch.style.display =
-    keyword ? "block" : "none";
+    keyword ? "flex" : "none";
 
         searchResults.innerHTML = "";
 
