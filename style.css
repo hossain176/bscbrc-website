@@ -1941,6 +1941,28 @@ padding-left:6px;
 
 }
 
+/* ===========================
+   Bulb States
+=========================== */
+
+.theme-toggle i{
+
+    color:#9ca3af;
+
+    transition:all .3s ease;
+
+}
+
+.theme-toggle.bulb-on i{
+
+    color:#FFD54A;
+
+    text-shadow:
+        0 0 8px rgba(255,213,74,.6),
+        0 0 18px rgba(255,213,74,.4);
+
+}
+
 .theme-toggle:hover{
 
     background:#0052FF;
