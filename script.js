@@ -402,29 +402,56 @@ const searchResults = document.getElementById("searchResults");
 
 if (guideSearch && searchResults) {
 
-    const guides = [
+   const guides = [
 
-        {
-            title: "💙 Base Guide",
-            url: "base-guide.html"
-        },
+    {
+        title: "💙 Base Guide",
+        url: "base-guide.html",
+        keywords: [
+            "base",
+            "base ecosystem",
+            "layer2",
+            "coinbase",
+            "l2"
+        ]
+    },
 
-        {
-            title: "🪂 Airdrop Guide",
-            url: "airdrop-guide.html"
-        },
+    {
+        title: "🪂 Airdrop Guide",
+        url: "airdrop-guide.html",
+        keywords: [
+            "airdrop",
+            "farming",
+            "rewards",
+            "points"
+        ]
+    },
 
-        {
-            title: "🧪 Testnet Guide",
-            url: "testnet-guide.html"
-        },
+    {
+        title: "🧪 Testnet Guide",
+        url: "testnet-guide.html",
+        keywords: [
+            "testnet",
+            "test",
+            "devnet",
+            "network"
+        ]
+    },
 
-        {
-            title: "💼 Wallet Guide",
-            url: "wallet-guide.html"
-        }
+    {
+        title: "💼 Wallet Guide",
+        url: "wallet-guide.html",
+        keywords: [
+            "wallet",
+            "metamask",
+            "rabby",
+            "coinbase wallet",
+            "security",
+            "seed phrase"
+        ]
+    }
 
-    ];
+];
 
     guideSearch.addEventListener("input", () => {
 
