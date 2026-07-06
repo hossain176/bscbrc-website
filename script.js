@@ -433,6 +433,7 @@ if (guideSearch && searchResults) {
         searchResults.innerHTML = "";
 
         if (keyword === "") return;
+
        
        const filtered = guides.filter(guide => {
 
