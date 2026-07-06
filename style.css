@@ -1913,21 +1913,21 @@ padding-left:6px;
 
 .theme-toggle{
 
-   width:50px;
-   
-   height:50px;
+    width:50px;
 
-   display:flex;
-   
-   align-items:center;
-   
-   justify-content:center;
-   
-   border-radius:50%;
-   
+    height:50px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
     border:none;
-   
-    background:#111827;
+
+    border-radius:50%;
+
+    background:transparent;
 
     color:#ffffff;
 
@@ -1937,7 +1937,7 @@ padding-left:6px;
 
     transition:.3s;
 
-    margin-right:12px;
+    margin-right:20px;
 
 }
 
@@ -1965,7 +1965,7 @@ padding-left:6px;
 
 .theme-toggle:hover{
 
-    background:#0052FF;
+    background:transparent;
 
 }
 
