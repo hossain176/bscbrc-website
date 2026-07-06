@@ -1708,6 +1708,12 @@ padding-left:6px;
 
     margin:0 auto;
 
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:16px;
+
+    padding:2px;
+
 }
 
 .search-input{
@@ -1721,8 +1727,8 @@ padding-left:6px;
     width:100%;
 
     padding:16px 56px 16px 52px;
-
-    border:1px solid rgba(255,255,255,.18);
+   
+    border:none;
    
     border-radius:14px;
 
