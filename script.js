@@ -434,7 +434,6 @@ if (guideSearch && searchResults) {
 
         if (keyword === "") return;
 
-       
        const filtered = guides.filter(guide => {
 
     const title = guide.title
