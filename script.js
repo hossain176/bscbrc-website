@@ -434,9 +434,15 @@ if (guideSearch && searchResults) {
 
         if (keyword === "") return;
 
-        const filtered = guides.filter(guide =>
-            guide.title.toLowerCase().includes(keyword)
-        );
+       const filtered = guides.filter(guide => {
+
+    const title = guide.title
+        .replace(/[^\w\s]/g, "")
+        .toLowerCase();
+
+    return title.startsWith(keyword);
+
+});
 
         if (filtered.length === 0) {
 
