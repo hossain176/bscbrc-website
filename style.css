@@ -1952,3 +1952,31 @@ body.light-mode{
     color:#111827;
 
 }
+
+body.light-mode .navbar{
+
+    background:#ffffff;
+
+    border-bottom:1px solid rgba(0,0,0,.08);
+
+}
+
+body.light-mode .logo span{
+
+    color:#111827;
+
+}
+
+body.light-mode .nav-links a{
+
+    color:#111827;
+
+}
+
+body.light-mode .follow-btn{
+
+    background:#0052FF;
+
+    color:#ffffff;
+
+}
