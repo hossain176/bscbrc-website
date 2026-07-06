@@ -393,6 +393,74 @@ document.querySelectorAll(".article-card").forEach(card => {
 
 });
 
+/* ===========================
+   Professional Guide Search
+=========================== */
+
+const guideSearch = document.getElementById("guideSearch");
+const searchResults = document.getElementById("searchResults");
+
+if (guideSearch && searchResults) {
+
+    const guides = [
+
+        {
+            title: "💙 Base Guide",
+            url: "base-guide.html"
+        },
+
+        {
+            title: "🪂 Airdrop Guide",
+            url: "airdrop-guide.html"
+        },
+
+        {
+            title: "🧪 Testnet Guide",
+            url: "testnet-guide.html"
+        },
+
+        {
+            title: "💼 Wallet Guide",
+            url: "wallet-guide.html"
+        }
+
+    ];
+
+    guideSearch.addEventListener("input", () => {
+
+        const keyword = guideSearch.value.toLowerCase().trim();
+
+        searchResults.innerHTML = "";
+
+        if (keyword === "") return;
+
+        const filtered = guides.filter(guide =>
+            guide.title.toLowerCase().includes(keyword)
+        );
+
+        if (filtered.length === 0) {
+
+            searchResults.innerHTML =
+                "<p>No guides found.</p>";
+
+            return;
+
+        }
+
+        filtered.forEach(guide => {
+
+            searchResults.innerHTML += `
+                <a href="${guide.url}" class="search-item">
+                    ${guide.title}
+                </a>
+            `;
+
+        });
+
+    });
+
+}
+
 /* ==========================================
    End
 ========================================== */
