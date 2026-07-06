@@ -1710,6 +1710,12 @@ padding-left:6px;
 
 }
 
+.search-input{
+
+    position:relative;
+
+}
+
 .search-box input{
 
     width:100%;
