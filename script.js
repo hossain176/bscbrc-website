@@ -488,15 +488,20 @@ if (guideSearch && searchResults) {
            
        return;
         }
-         filtered.forEach(guide => {
 
-            searchResults.innerHTML += `
-                <a href="${guide.url}" class="search-item">
-                    ${guide.title}
-                </a>
-            `;
+       filtered.forEach(guide => {
 
-        });
+    searchResults.innerHTML += `
+        <a href="${guide.url}" class="search-item">
+
+            <strong>${guide.title}</strong>
+
+            <small>${guide.description}</small>
+
+        </a>
+    `;
+
+});
 
     });
 
