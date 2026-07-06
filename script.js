@@ -399,6 +399,7 @@ document.querySelectorAll(".article-card").forEach(card => {
 
 const guideSearch = document.getElementById("guideSearch");
 const searchResults = document.getElementById("searchResults");
+const clearSearch = document.getElementById("clearSearch");
 
 if (guideSearch && searchResults) {
 
