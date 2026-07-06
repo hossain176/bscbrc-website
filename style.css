@@ -1980,3 +1980,28 @@ body.light-mode .follow-btn{
     color:#ffffff;
 
 }
+body.light-mode .hero{
+
+    background:#f8fafc;
+
+}
+
+body.light-mode .hero h1{
+
+    color:#111827;
+
+}
+
+body.light-mode .hero p{
+
+    color:#4b5563;
+
+}
+
+body.light-mode .badge{
+
+    background:#e0e7ff;
+
+    color:#0052FF;
+
+}
