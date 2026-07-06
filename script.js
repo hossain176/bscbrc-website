@@ -478,16 +478,13 @@ if (guideSearch && searchResults) {
 });
        
         if (filtered.length === 0) {
-
-            
+ 
         searchResults.innerHTML =
           "<p>🔍 No results found.</p>";
            
        return;
-
         }
-
-        filtered.forEach(guide => {
+         filtered.forEach(guide => {
 
             searchResults.innerHTML += `
                 <a href="${guide.url}" class="search-item">
