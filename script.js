@@ -535,15 +535,11 @@ if (themeToggle) {
 
         if (document.body.classList.contains("light-mode")) {
 
-            themeToggle.textContent = "💡";
+    themeToggle.classList.add("bulb-on");
 
-            themeToggle.classList.add("bulb-on");
+} else {
 
-        } else {
-
-            themeToggle.textContent = "💡";
-
-            themeToggle.classList.remove("bulb-on");
+    themeToggle.classList.remove("bulb-on");
 
         }
 
