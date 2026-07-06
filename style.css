@@ -1750,9 +1750,9 @@ padding-left:6px;
 
 .search-box input:focus{
 
-    border:1px solid #0052FF;
+    border:1px solid #ffffff;
 
-    box-shadow:0 0 0 2px rgba(0,82,255,.18);
+    box-shadow:0 0 0 2px rgba(255,255,255,.10);
 
 }
 
