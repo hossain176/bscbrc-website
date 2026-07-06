@@ -1725,3 +1725,58 @@ padding-left:6px;
     border-color:#0052FF;
     box-shadow:0 0 0 4px rgba(0,82,255,.15);
 }
+
+/* ===========================
+   Search Results
+=========================== */
+
+.search-results{
+
+    margin-top:12px;
+
+    background:#111827;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+
+}
+
+.search-item{
+
+    display:block;
+
+    padding:16px 20px;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    transition:.25s;
+
+}
+
+.search-item:last-child{
+
+    border-bottom:none;
+
+}
+
+.search-item:hover{
+
+    background:#0052FF;
+
+}
+
+.search-results p{
+
+    padding:16px 20px;
+
+    color:#9ca3af;
+
+}
+
