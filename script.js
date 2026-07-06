@@ -533,6 +533,20 @@ if (themeToggle) {
 
         document.body.classList.toggle("light-mode");
 
+        if (document.body.classList.contains("light-mode")) {
+
+            themeToggle.textContent = "💡";
+
+            themeToggle.classList.add("bulb-on");
+
+        } else {
+
+            themeToggle.textContent = "💡";
+
+            themeToggle.classList.remove("bulb-on");
+
+        }
+
     });
 
 }
