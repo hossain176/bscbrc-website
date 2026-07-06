@@ -393,6 +393,7 @@ document.querySelectorAll(".article-card").forEach(card => {
 
 });
 
+
 /* ===========================
    Guide Search
 =========================== */
