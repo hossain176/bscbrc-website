@@ -1779,4 +1779,25 @@ padding-left:6px;
     color:#9ca3af;
 
 }
+.search-item strong{
+
+    display:block;
+
+    font-size:16px;
+
+    margin-bottom:4px;
+
+}
+
+.search-item small{
+
+    display:block;
+
+    color:#b8c0cc;
+
+    font-size:13px;
+
+    line-height:1.5;
+
+}
 
