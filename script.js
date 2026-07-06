@@ -433,16 +433,21 @@ if (guideSearch && searchResults) {
         searchResults.innerHTML = "";
 
         if (keyword === "") return;
+       
 
        const filtered = guides.filter(guide => {
 
     const title = guide.title
-        .replace(/[^\w\s]/g, "")
-        .toLowerCase();
+        .toLowerCase()
+        .replace("💙 ", "")
+        .replace("🪂 ", "")
+        .replace("🧪 ", "")
+        .replace("💼 ", "");
 
     return title.startsWith(keyword);
 
 });
+       
 
         if (filtered.length === 0) {
 
