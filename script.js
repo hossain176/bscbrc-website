@@ -465,12 +465,15 @@ if (guideSearch && searchResults) {
 
     const title = guide.title
         .toLowerCase()
-        .replace("💙 ", "")
-        .replace("🪂 ", "")
-        .replace("🧪 ", "")
-        .replace("💼 ", "");
+        .replace(/[^\w\s]/g, "");
 
-    return title.startsWith(keyword);
+    if (title.includes(keyword)) {
+        return true;
+    }
+
+    return guide.keywords.some(item =>
+        item.toLowerCase().includes(keyword)
+    );
 
 });
        
