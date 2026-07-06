@@ -393,37 +393,6 @@ document.querySelectorAll(".article-card").forEach(card => {
 
 });
 
-
-/* ===========================
-   Guide Search
-=========================== */
-
-const searchInput = document.getElementById("guideSearch");
-
-if (searchInput) {
-
-    const cards = document.querySelectorAll(".feature-card");
-
-    searchInput.addEventListener("keyup", () => {
-
-        const value = searchInput.value.toLowerCase();
-
-        cards.forEach(card => {
-
-            const text = card.textContent.toLowerCase();
-
-            if (text.includes(value)) {
-                card.style.display = "";
-            } else {
-                card.style.display = "none";
-            }
-
-        });
-
-    });
-
-}
-
 /* ==========================================
    End
 ========================================== */
