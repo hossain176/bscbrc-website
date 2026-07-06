@@ -479,10 +479,11 @@ if (guideSearch && searchResults) {
        
         if (filtered.length === 0) {
 
-            searchResults.innerHTML =
-                "<p>No guides found.</p>";
-
-            return;
+            
+        searchResults.innerHTML =
+          "<p>🔍 No results found.</p>";
+           
+       return;
 
         }
 
