@@ -461,6 +461,8 @@ if (guideSearch && searchResults) {
     guideSearch.addEventListener("input", () => {
 
         const keyword = guideSearch.value.toLowerCase().trim();
+       clearSearch.style.display =
+    keyword ? "block" : "none";
 
         searchResults.innerHTML = "";
 
@@ -506,6 +508,18 @@ if (guideSearch && searchResults) {
 
     });
 
+clearSearch.addEventListener("click", () => {
+
+    guideSearch.value = "";
+
+    searchResults.innerHTML = "";
+
+    clearSearch.style.display = "none";
+
+    guideSearch.focus();
+
+});
+   
 }
 
 /* ==========================================
