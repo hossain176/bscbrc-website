@@ -1911,7 +1911,7 @@ padding-left:6px;
    Theme Toggle
 =========================== */
 
-.theme-toggle{
+   .theme-toggle{
 
     width:50px;
 
@@ -1926,7 +1926,7 @@ padding-left:6px;
     border:none;
 
     border-radius:50%;
-
+   
     background:transparent;
 
     color:#ffffff;
