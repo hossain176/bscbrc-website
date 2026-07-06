@@ -88,7 +88,6 @@ document
 ".feature-card,.stat-card,.about-content,.cta-box"
 
 )
-
 .forEach(el=>observer.observe(el));
 
 /* ===========================
