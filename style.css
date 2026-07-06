@@ -1913,19 +1913,25 @@ padding-left:6px;
 
 .theme-toggle{
 
-    width:44px;
+   width:50px;
+   
+   height:50px;
 
-    height:44px;
-
+   display:flex;
+   
+   align-items:center;
+   
+   justify-content:center;
+   
+   border-radius:50%;
+   
     border:none;
-
-    border-radius:50%;
-
+   
     background:#111827;
 
     color:#ffffff;
 
-    font-size:18px;
+    font-size:28px;
 
     cursor:pointer;
 
