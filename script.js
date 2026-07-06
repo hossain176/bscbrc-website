@@ -404,21 +404,23 @@ if (guideSearch && searchResults) {
 
    const guides = [
 
-    {
-        title: "💙 Base Guide",
-        url: "base-guide.html",
-        keywords: [
-            "base",
-            "base ecosystem",
-            "layer2",
-            "coinbase",
-            "l2"
-        ]
-    },
+      {
+    title: "💙 Base Guide",
+    url: "base-guide.html",
+    description: "Learn the fundamentals of the Base ecosystem.",
+    keywords: [
+        "base",
+        "base ecosystem",
+        "layer2",
+        "coinbase",
+        "l2"
+    ]
+},
 
     {
         title: "🪂 Airdrop Guide",
         url: "airdrop-guide.html",
+        description: "Learn how to identify quality airdrops safely.",
         keywords: [
             "airdrop",
             "farming",
@@ -430,6 +432,7 @@ if (guideSearch && searchResults) {
     {
         title: "🧪 Testnet Guide",
         url: "testnet-guide.html",
+        description: "Build real onchain experience through testnets.",
         keywords: [
             "testnet",
             "test",
@@ -441,6 +444,7 @@ if (guideSearch && searchResults) {
     {
         title: "💼 Wallet Guide",
         url: "wallet-guide.html",
+        description: "Understand crypto wallets and wallet security.",
         keywords: [
             "wallet",
             "metamask",
