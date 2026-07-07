@@ -1239,10 +1239,15 @@ user-select:none;
         display:none;
     }
 
-    .menu-toggle{
-        display:block;
-        z-index:1001;
-    }
+   .menu-toggle{
+
+    display:block;
+
+    position:relative;
+
+    z-index:9999;
+
+   }
 
     nav{
         position:relative;
@@ -1255,6 +1260,7 @@ user-select:none;
     top:60px;
     right:0;
     width:220px;
+    z-index:9998;
 
     background:rgba(8,20,45,.82);
     backdrop-filter:blur(18px);
@@ -1937,7 +1943,7 @@ padding-left:6px;
 
     transition:.3s;
 
-    margin-right:20px;
+    margin-right:55px;
 
 }
 
