@@ -975,13 +975,13 @@ display:none;
 
 }
 
-.hero{
+   .hero{
 
-padding:80px 0;
+padding:40px 0 50px;
 
 min-height:auto;
 
-}
+   }
 
 section{
 
