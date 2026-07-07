@@ -597,7 +597,7 @@ gap:30px;
 padding:38px;
 border-radius:24px;
 background:var(--card);
-border:1px solid rgba(255,255,255,.08);
+border:1px solid var(--border);
 
 backdrop-filter:blur(18px);
 
@@ -738,12 +738,8 @@ color:var(--muted);
 
 footer{
 padding:90px 0 35px;
-background:linear-gradient(
-180deg,
-rgba(8,12,24,.98),
-rgba(4,8,18,1)
-);
-border-top:1px solid rgba(255,255,255,.08);
+   background:var(--surface);
+   border-top:1px solid var(--border);
 }
 
 .footer-grid{
@@ -1726,7 +1722,7 @@ padding-left:6px;
 
     margin:0 auto;
 
-    border:1px solid rgba(255,255,255,.12);
+    border:1px solid var(--border);
 
     border-radius:16px;
 
@@ -1750,9 +1746,8 @@ padding-left:6px;
    
     border-radius:14px;
 
-    background:#111827;
-
-    color:#fff;
+    background:var(--card);
+    color:var(--text);
 
     font-size:16px;
 
@@ -1763,7 +1758,9 @@ padding-left:6px;
 }
 
 .search-box input::placeholder{
-    color:#9ca3af;
+
+    color:var(--muted);
+
 }
 
 .search-box input:focus{
