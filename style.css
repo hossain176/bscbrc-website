@@ -2143,6 +2143,16 @@ body.light-mode .badge{
 
 }
 
+@media(max-width:768px){
+
+    .breadcrumb{
+
+        margin:20px 0;
+
+    }
+
+}
+
 .breadcrumb a{
 
     color:var(--muted);
