@@ -2124,3 +2124,43 @@ body.light-mode .badge{
     color:#0052FF;
 
 }
+
+/* ===========================
+   Breadcrumb
+=========================== */
+
+.breadcrumb{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+
+    margin:32px 0;
+
+    font-size:.95rem;
+
+    color:var(--muted);
+
+}
+
+.breadcrumb a{
+
+    color:var(--muted);
+
+    transition:.25s ease;
+
+}
+
+.breadcrumb a:hover{
+
+    color:var(--primary);
+
+}
+
+.breadcrumb span:last-child{
+
+    color:var(--text);
+
+    font-weight:600;
+
+}
