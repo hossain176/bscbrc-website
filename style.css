@@ -2164,3 +2164,15 @@ body.light-mode .badge{
     font-weight:600;
 
 }
+
+.breadcrumb i{
+
+    font-size:.85rem;
+
+}
+
+.separator{
+
+    color:var(--muted);
+
+}
