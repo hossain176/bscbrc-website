@@ -1969,6 +1969,16 @@ padding-left:6px;
 
 }
 
+.nav-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
 .theme-toggle:hover{
 
     background:transparent;
