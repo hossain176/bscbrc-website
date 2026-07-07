@@ -546,6 +546,25 @@ if (themeToggle) {
     });
 
 }
+
+/* ===========================
+   Dynamic Reading Time
+=========================== */
+
+const article = document.querySelector("#article");
+
+const readingTime = document.getElementById("reading-time");
+
+if (article && readingTime) {
+
+    const words = article.innerText.trim().split(/\s+/).length;
+
+    const minutes = Math.max(1, Math.ceil(words / 200));
+
+    readingTime.textContent = `${minutes} min read`;
+
+}
+
 /* ==========================================
    End
 ========================================== */
