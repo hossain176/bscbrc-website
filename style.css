@@ -1943,7 +1943,7 @@ padding-left:6px;
 
     transition:.3s;
 
-    margin-right:55px;
+    margin-right:0;
 
 }
 
@@ -1969,14 +1969,12 @@ padding-left:6px;
 
 }
 
-.nav-actions{
-
+..nav-actions{
     display:flex;
-
     align-items:center;
-
-    gap:10px;
-
+    justify-content:flex-end;
+    gap:8px;
+    margin-left:auto;
 }
 
 .theme-toggle:hover{
