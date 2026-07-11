@@ -2446,3 +2446,24 @@ line-height:1.7;
     letter-spacing:1px;
     text-transform:uppercase;
 }
+
+/* Design System v2 - Home Hero */
+
+.hero-grid{
+    display:block;
+}
+
+.hero-left{
+    max-width:850px;
+    margin:0 auto;
+    text-align:center;
+}
+
+.hero p{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hero-buttons{
+    justify-content:center;
+}
