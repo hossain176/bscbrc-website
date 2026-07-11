@@ -429,31 +429,6 @@ transform:translateY(-4px);
 border-color:rgba(0,82,255,.40);
 }
 
-/* ===========================
-   HERO LOGO
-=========================== */
-
-.hero-right{
-
-display:flex;
-
-justify-content:center;
-
-align-items:center;
-
-}
-
-.hero-logo{
-width:320px;
-max-width:100%;
-height:auto;
-display:block;
-margin:auto;
-filter:drop-shadow(0 25px 50px rgba(0,82,255,.18));
-animation:
-    floatLogo 5s ease-in-out infinite,
-    heroPulse 4s ease-in-out infinite;
-}
 
 /* ===========================
    STATS
