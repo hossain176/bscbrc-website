@@ -1246,6 +1246,10 @@ user-select:none;
         align-items:center;
         gap:8px;
     }
+   
+   .nav-actions button{
+    flex-shrink:0;
+   }
 
     .menu-toggle{
         display:flex;
@@ -1261,7 +1265,7 @@ user-select:none;
         color:var(--text);
         font-size:30px;
         cursor:pointer;
-
+        margin:0;
         position:relative;
         z-index:9999;
     }
