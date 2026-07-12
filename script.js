@@ -455,6 +455,23 @@ if (guideSearch && searchResults) {
         ]
     }
 
+{
+    title: "🌉 Bridge Guide",
+    url: "bridge-guide.html",
+    description: "Learn how crypto bridges work and transfer assets safely.",
+    keywords: [
+        "bridge",
+        "bridging",
+        "crypto bridge",
+        "base bridge",
+        "cross chain",
+        "cross-chain",
+        "ethereum",
+        "arbitrum",
+        "optimism"
+    ]
+}
+      
 ];
 
     guideSearch.addEventListener("input", () => {
