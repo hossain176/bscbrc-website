@@ -453,7 +453,7 @@ if (guideSearch && searchResults) {
             "security",
             "seed phrase"
         ]
-    }
+    },
 
 {
     title: "🌉 Bridge Guide",
