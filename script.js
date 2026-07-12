@@ -544,7 +544,19 @@ clearSearch.addEventListener("click", () => {
 
 const themeToggle = document.getElementById("themeToggle");
 
+// Apply saved theme on page load
+const savedTheme = localStorage.getItem("theme");
+
+if (savedTheme === "light") {
+    document.body.classList.add("light-mode");
+}
+
 if (themeToggle) {
+
+    // Keep bulb icon in sync
+    if (document.body.classList.contains("light-mode")) {
+        themeToggle.classList.add("bulb-on");
+    }
 
     themeToggle.addEventListener("click", () => {
 
@@ -552,18 +564,19 @@ if (themeToggle) {
 
         if (document.body.classList.contains("light-mode")) {
 
-    themeToggle.classList.add("bulb-on");
+            themeToggle.classList.add("bulb-on");
+            localStorage.setItem("theme", "light");
 
-} else {
+        } else {
 
-    themeToggle.classList.remove("bulb-on");
+            themeToggle.classList.remove("bulb-on");
+            localStorage.setItem("theme", "dark");
 
         }
 
     });
 
 }
-
 /* ===========================
    Dynamic Reading Time
 =========================== */
