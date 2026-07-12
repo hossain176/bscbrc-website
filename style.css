@@ -1704,6 +1704,9 @@ body.light-mode .nav-links a:hover{
     line-height:1.8;
 }
 
+.cta-card p{
+    margin-bottom:28px;
+}
 /* ===========================
    Article Meta
 =========================== */
