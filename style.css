@@ -1699,13 +1699,10 @@ body.light-mode .nav-links a:hover{
 
 .cta-card p{
     max-width:650px;
-    margin:0 auto 35px;
+    margin:0 auto 28px;
     color:var(--muted);
     line-height:1.8;
-}
-
-.cta-card p{
-    margin-bottom:28px;
+   
 }
 /* ===========================
    Article Meta
