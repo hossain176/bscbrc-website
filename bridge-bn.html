@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+  <html lang="bn">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+  <title>Bridge কী? | বাংলা গাইড | BSCBRC</title>
+
+  <meta name="description"
+content="Blockchain Bridge কী, কেন ব্যবহার করা হয় এবং কীভাবে নিরাপদে Token এক Network থেকে অন্য Network-এ স্থানান্তর করবেন—সহজ বাংলায় সম্পূর্ণ Beginner-Friendly গাইড।">
+  
+    <meta
+name="keywords"
+content="Base Ecosystem, Base Guides, Web3, Crypto, Airdrop, Testnet, Blockchain, DeFi, Onchain, BSCBRC">      
+     
+<meta
+name="author"
+content="BSCBRC">
+
+<meta name="robots" content="index, follow">
+
+  <meta property="og:title"
+content="Bridge কী? | বাংলা গাইড | BSCBRC">
+
+  <meta property="og:description"
+content="Blockchain Bridge সম্পর্কে সহজ বাংলায় জানুন। Token কীভাবে নিরাপদে এক Blockchain থেকে অন্য Blockchain-এ স্থানান্তর করবেন তা শিখুন।">
+
+<meta
+property="og:type"
+content="website">
+
+<meta property="og:url"
+content="https://bscbrc.xyz/bridge-bn.html">
+  
+<meta property="og:image" content="https://bscbrc.xyz/assets/og-image.png">
+
+<meta
+name="twitter:card"
+content="summary_large_image">
+
+  <meta name="twitter:title"
+content="Bridge কী? | বাংলা গাইড | BSCBRC">
+
+  <meta name="twitter:description"
+content="Blockchain Bridge সম্পর্কে সহজ বাংলায় Beginner-Friendly গাইড।">
+     
+<meta name="twitter:image" content="https://bscbrc.xyz/assets/og-image.png">
+
+     <link rel="icon" href="/favicon.ico" sizes="any">
+     
+<link
+rel="manifest"
+href="manifest.webmanifest">
+
+<meta name="theme-color" content="#0052FF">
+
+  <link rel="canonical"
+href="https://bscbrc.xyz/bridge-bn.html">
+
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+<link
+rel="stylesheet"
+href="style.css">
+
+     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Blockchain Bridge কী?",
+  "description": "Blockchain Bridge সম্পর্কে সহজ বাংলায় Beginner-Friendly গাইড।",
+  "author": {
+    "@type": "Organization",
+    "name": "BSCBRC"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "BSCBRC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bscbrc.xyz/assets/logo.png"
+    }
+  },
+  "datePublished": "2026-07-15",
+  "dateModified": "2026-07-15",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bscbrc.xyz/bridge-bn.html"
+  },
+  "image": "https://bscbrc.xyz/assets/og-image.png"
+}
+</script>
+  
+     <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Blockchain Bridge কি ফ্রি?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"না। Bridge ব্যবহার করার সময় সাধারণত Gas Fee দিতে হয়। কিছু Bridge অতিরিক্ত Service Fee-ও নিতে পারে।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Bridge করতে কি ETH লাগবে?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"হ্যাঁ। Ethereum বা Base-এর মতো Network-এ Bridge ব্যবহার করার জন্য Gas Fee হিসেবে ETH প্রয়োজন হয়।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Bridge Transaction কত সময় লাগে?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"ব্যবহৃত Bridge এবং Network-এর উপর নির্ভর করে কয়েক সেকেন্ড থেকে কয়েক মিনিট সময় লাগতে পারে।"
+      }
+    },
+    {
+      "@type":"Question",
+      "name":"Bridge ব্যবহার করা কি নিরাপদ?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"হ্যাঁ। যদি আপনি অফিসিয়াল বা বিশ্বস্ত Bridge ব্যবহার করেন এবং Website-এর URL ভালোভাবে যাচাই করেন।"
+      }
+    }
+  ]
+}
+</script>
+     
+</head>
+      
+<body id="top">
+     
+     <div id="progress-bar"></div>
+     
+     <!-- Loading Screen -->
+  
+<div id="loader">
+    <div class="loader-content">
+        <img src="assets/logo.png" alt="BSCBRC Logo">
+        <h2>BSCBRC</h2>
+    </div>
+</div>
+
+<header class="navbar">
+
+<div class="container">
+
+     <a href="index.html" class="logo">
+
+<img src="assets/logo.png"
+     alt="BSCBRC Logo"
+     width="44"
+     height="44"
+     loading="eager">
+
+<span>BSCBRC</span>
+
+</a>
+
+<nav>
+
+<ul class="nav-links">
+
+    <li><a href="index.html">Home</a></li>
+
+  <li><a href="#top">Bridge Guide</a></li>
+
+    <li>
+         <a href="about.html">About</a>
+    </li>
+
+    <li>
+         <a href="contact.html">Contact</a>
+    </li>
+
+</ul>
+
+<button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+
+    <i class="fa-solid fa-lightbulb"></i>
+
+</button>
+  
+     <button class="menu-toggle" aria-label="Menu">
+    ☰
+     </button>
+
+</nav>
+
+<a
+
+href="https://x.com/bsc_brc"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+class="follow-btn">
+
+Join Community
+
+</a>
+
+</div>
+
+</header>
+
+  <div class="container">
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+
+        <span class="separator">›</span>
+
+      <span>Bridge Guide</span>
+
+    </nav>
+
+  </div>
+  
+<section class="page-hero">
+
+    <div class="container">
+
+        <span class="section-badge">
+            🌉 অধ্যায় ৩
+        </span>
+
+        <h1>Blockchain Bridge কী?</h1>
+
+        <p>
+            Blockchain Bridge কী, কেন ব্যবহার করা হয় এবং কীভাবে নিরাপদে এক Blockchain থেকে অন্য Blockchain-এ Token স্থানান্তর করবেন—এই গাইডে সহজ বাংলায় জানুন।
+        </p>
+
+        <div class="guide-meta">
+
+          <div class="guide-highlights">
+
+    <h3>📚 এই অধ্যায়ে আপনি শিখবেন</h3>
+
+    <ul>
+
+        <li>✅ Blockchain Bridge কী</li>
+
+        <li>✅ কেন Bridge ব্যবহার করা হয়</li>
+
+        <li>✅ Bridge কীভাবে কাজ করে</li>
+
+        <li>✅ জনপ্রিয় Bridge</li>
+
+        <li>✅ নিরাপদে Bridge ব্যবহার করার নিয়ম</li>
+
+        <li>✅ সাধারণ ভুল ও সতর্কতা</li>
+
+    </ul>
+
+          </div>
+
+            <span>📘 Beginner বাংলা Guide</span>
+
+            <span>•</span>
+
+            <span>📅 সর্বশেষ আপডেট: জুলাই ২০২৬</span>
+
+        </div>
+
+    </div>
+
+</section>
+  
+  <section id="article">
+
+    <div class="container">
+
+        <div class="article-header">
+
+            <h2 id="what-is-bridge">Blockchain Bridge কী?</h2>
+
+            <div class="toc">
+
+                <h3>📑 সূচিপত্র</h3>
+
+                <ul>
+
+                    <li><a href="#what-is-bridge">১. Blockchain Bridge কী?</a></li>
+
+                    <li><a href="#why-bridge">২. কেন Bridge ব্যবহার করা হয়?</a></li>
+
+                    <li><a href="#how-bridge-works">৩. Bridge কীভাবে কাজ করে?</a></li>
+
+                    <li><a href="#popular-bridges">৪. জনপ্রিয় Bridge</a></li>
+
+                    <li><a href="#bridge-safety">৫. নিরাপত্তা পরামর্শ</a></li>
+
+                    <li><a href="#common-mistakes">৬. সাধারণ ভুল</a></li>
+
+                    <li><a href="#faq">৭. সাধারণ প্রশ্ন</a></li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <p>
+            Blockchain Bridge হলো এমন একটি প্রযুক্তি, যার মাধ্যমে একটি Blockchain থেকে অন্য Blockchain-এ Token বা Digital Asset নিরাপদে স্থানান্তর করা যায়।
+        </p>
+
+        <p>
+            সহজভাবে ভাবুন, দুটি আলাদা দ্বীপকে যুক্ত করার জন্য যেমন একটি সেতু (Bridge) দরকার হয়, তেমনি Ethereum, Base, Arbitrum বা Optimism-এর মতো আলাদা Blockchain-এর মধ্যে Asset আদান-প্রদানের জন্যও একটি Bridge প্রয়োজন।
+        </p>
+
+        <p>
+            উদাহরণস্বরূপ, যদি আপনার ETH Ethereum Network-এ থাকে কিন্তু আপনি Base Network ব্যবহার করতে চান, তাহলে একটি Blockchain Bridge-এর মাধ্যমে সেই Asset Base-এ স্থানান্তর করতে পারবেন।
+        </p>
+
+    </div>
+
+</section>
+  
+            <section id="why-bridge">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                কেন Bridge?
+            </span>
+
+            <h2>কেন Blockchain Bridge ব্যবহার করা হয়?</h2>
+
+            <p>
+                প্রতিটি Blockchain আলাদাভাবে কাজ করে। তাই একটি Network-এর Token বা Asset সরাসরি অন্য Network-এ ব্যবহার করা যায় না। এই সমস্যার সমাধান করে Blockchain Bridge।
+            </p>
+
+            <p>
+                উদাহরণস্বরূপ, আপনার ETH যদি Ethereum Network-এ থাকে কিন্তু আপনি Base-এর কম Gas Fee, দ্রুত Transaction বা DeFi Application ব্যবহার করতে চান, তাহলে প্রথমে একটি Bridge-এর মাধ্যমে ETH Base Network-এ স্থানান্তর করতে হবে।
+            </p>
+
+            <p>
+                Bridge ব্যবহার করে আপনি বিভিন্ন Blockchain-এর সুবিধা নিতে পারবেন, যেমন কম Transaction Fee, দ্রুত লেনদেন এবং নতুন Ecosystem-এর বিভিন্ন DApp, DeFi Protocol ও Airdrop-এ অংশগ্রহণ।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  
+<section id="how-bridge-works">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                কীভাবে কাজ করে?
+            </span>
+
+            <h2>Blockchain Bridge কীভাবে কাজ করে?</h2>
+
+            <p>
+                যখন আপনি একটি Bridge ব্যবহার করেন, তখন আপনার Token সরাসরি এক Blockchain থেকে অন্য Blockchain-এ "উড়ে" যায় না। বরং Bridge একটি নির্দিষ্ট প্রক্রিয়ার মাধ্যমে Token স্থানান্তর সম্পন্ন করে।
+            </p>
+
+            <p>
+                সাধারণভাবে প্রথমে আপনার Token উৎস (Source) Blockchain-এ Lock বা সংরক্ষণ করা হয়। এরপর Bridge গন্তব্য (Destination) Blockchain-এ একই মূল্যের Token Release বা Mint করে দেয়। ফলে আপনি নতুন Network-এ সেই Token ব্যবহার করতে পারেন।
+            </p>
+
+            <div class="guide-highlights">
+
+                <h3>🔄 সহজভাবে পুরো প্রক্রিয়া</h3>
+
+                <ul>
+
+                    <li>① Ethereum Network-এ Token নির্বাচন করুন</li>
+
+                    <li>② Bridge-এর মাধ্যমে Transaction অনুমোদন করুন</li>
+
+                    <li>③ Token Source Network-এ Lock হবে</li>
+
+                    <li>④ Bridge Destination Network-এ Token Release করবে</li>
+
+                    <li>⑤ এখন আপনি নতুন Blockchain-এ Token ব্যবহার করতে পারবেন</li>
+
+                </ul>
+
+            </div>
+
+            <p>
+                উদাহরণস্বরূপ, আপনি যদি Ethereum থেকে Base-এ ETH Bridge করেন, তাহলে Bridge সম্পূর্ণ হওয়ার পর Base Network-এ সেই Asset ব্যবহার করে DeFi, DApp, NFT অথবা অন্যান্য Web3 Application ব্যবহার করতে পারবেন।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="types-of-bridge">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                Bridge-এর ধরন
+            </span>
+
+            <h2>Blockchain Bridge-এর ধরন</h2>
+
+            <p>
+                <strong>🌉 Native Bridge</strong><br>
+                কোনো Blockchain-এর অফিসিয়াল Team দ্বারা তৈরি Bridge-কে Native Bridge বলা হয়। উদাহরণস্বরূপ, Base Bridge হলো Base Network-এর অফিসিয়াল Bridge।
+            </p>
+
+            <p>
+                <strong>🔄 Third-Party Bridge</strong><br>
+                Across, Superbridge, Relay এবং Orbiter-এর মতো স্বাধীন Project দ্বারা তৈরি Bridge-কে Third-Party Bridge বলা হয়। এগুলো অনেক সময় একাধিক Blockchain সমর্থন করে।
+            </p>
+
+            <p>
+                <strong>⚡ Cross-Chain Bridge</strong><br>
+                Cross-Chain Bridge ব্যবহার করে একটি Blockchain থেকে অন্য Blockchain-এ Token বা Asset স্থানান্তর করা যায়। যেমন Ethereum থেকে Base বা Arbitrum-এ Asset পাঠানো।
+            </p>
+
+            <p>
+                Bridge ব্যবহারের আগে সবসময় নিশ্চিত করুন যে আপনি অফিসিয়াল বা বিশ্বস্ত Bridge ব্যবহার করছেন এবং Website-এর ঠিকানা (URL) ভালোভাবে যাচাই করেছেন।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  
+  <section id="security">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                🔒 নিরাপত্তা
+            </span>
+
+            <h2>Bridge ব্যবহারের সময় নিরাপত্তা পরামর্শ</h2>
+
+            <p>
+                <strong>🌐 শুধুমাত্র অফিসিয়াল Bridge ব্যবহার করুন।</strong><br>
+                Bridge ব্যবহার করার আগে Website-এর URL ভালোভাবে যাচাই করুন। ভুয়া Website আপনার Wallet-এর জন্য ঝুঁকিপূর্ণ হতে পারে।
+            </p>
+
+            <p>
+                <strong>💰 প্রথমে অল্প পরিমাণ Token পাঠিয়ে পরীক্ষা করুন।</strong><br>
+                বড় Amount পাঠানোর আগে ছোট একটি Transaction করে নিশ্চিত হয়ে নিন যে সবকিছু ঠিকভাবে কাজ করছে।
+            </p>
+
+            <p>
+                <strong>⏳ Transaction সম্পূর্ণ হওয়া পর্যন্ত অপেক্ষা করুন।</strong><br>
+                Bridge Transaction সম্পন্ন হতে কয়েক মিনিট সময় লাগতে পারে। মাঝপথে আতঙ্কিত হয়ে একই Transaction বারবার করবেন না।
+            </p>
+
+            <p>
+                <strong>🔍 Wallet-এর Network যাচাই করুন।</strong><br>
+                Source Network এবং Destination Network সঠিকভাবে নির্বাচন করা হয়েছে কিনা, সবসময় নিশ্চিত করুন।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="faq">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                ❓ সাধারণ প্রশ্ন
+            </span>
+
+            <h2>প্রায় জিজ্ঞাসিত প্রশ্ন (FAQ)</h2>
+
+            <p>
+                <strong>Blockchain Bridge কি ফ্রি?</strong><br>
+                না। Bridge ব্যবহার করার সময় সাধারণত Gas Fee দিতে হয়। কিছু Bridge অতিরিক্ত Service Fee-ও নিতে পারে।
+            </p>
+
+            <p>
+                <strong>Bridge করতে কি ETH লাগবে?</strong><br>
+                হ্যাঁ। Ethereum বা Base-এর মতো Network-এ Bridge ব্যবহার করার জন্য Gas Fee হিসেবে ETH প্রয়োজন হয়।
+            </p>
+
+            <p>
+                <strong>Bridge Transaction কত সময় লাগে?</strong><br>
+                ব্যবহৃত Bridge এবং Network-এর উপর নির্ভর করে কয়েক সেকেন্ড থেকে কয়েক মিনিট সময় লাগতে পারে।
+            </p>
+
+            <p>
+                <strong>Bridge ব্যবহার করা কি নিরাপদ?</strong><br>
+                হ্যাঁ, যদি আপনি অফিসিয়াল বা বিশ্বস্ত Bridge ব্যবহার করেন এবং Website-এর URL ভালোভাবে যাচাই করেন।
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+  
+
+ <section class="related-guides">
+
+    <h2>📚 পরবর্তী অধ্যায়</h2>
+
+    <div class="related-grid">
+
+        <a href="airdrop-bn.html" class="related-card">
+
+            <span>🪂 Airdrop পরিচিতি</span>
+
+            <p>
+                Airdrop কী, কীভাবে অংশগ্রহণ করবেন এবং Scam এড়িয়ে নিরাপদে Airdrop Claim করবেন তা শিখুন।
+            </p>
+
+        </a>
+
+        <a href="testnet-bn.html" class="related-card">
+
+            <span>🧪 Testnet পরিচিতি</span>
+
+            <p>
+                Testnet কী, কেন গুরুত্বপূর্ণ এবং কীভাবে নিরাপদে Testnet Task সম্পন্ন করবেন তা জানুন।
+            </p>
+
+        </a>
+
+        <a href="security-bn.html" class="related-card">
+
+            <span>🔒 Security Guide</span>
+
+            <p>
+                Wallet, Bridge এবং Crypto Asset নিরাপদ রাখার গুরুত্বপূর্ণ নিয়মগুলো শিখুন।
+            </p>
+
+        </a>
+
+    </div>
+
+</section>
+
+  <div class="guide-navigation">
+
+    <a href="wallet-bn.html" class="prev-guide">
+        ← পূর্ববর্তী অধ্যায়: Wallet
+    </a>
+
+    <a href="airdrop-bn.html" class="next-guide">
+        পরবর্তী অধ্যায়: Airdrop →
+    </a>
+
+</div>
+  
+<!-- ===========================
+     FOOTER
+============================ -->
+
+<footer>
+
+  <div class="container footer-grid">
+
+    <div>
+
+         <img
+    src="assets/logo.png"
+    alt="BSCBRC Logo"
+    class="footer-logo"
+    width="44"
+    height="44">
+
+      <h3>BSCBRC</h3>
+
+      <p>
+
+        Learning, Testing & Building on Base.
+
+      </p>
+
+    </div>
+
+    <div>
+
+    <h4>নেভিগেশন</h4>
+
+    <ul>
+
+        <li><a href="bangla.html">← বাংলা গাইডসমূহ</a></li>
+
+        <li><a href="#article">Bridge কী?</a></li>
+
+        <li><a href="#top">↑ উপরে যান</a></li>
+
+    </ul>
+
+</div>
+
+    <div>
+
+      <h4>Community</h4>
+
+      <ul>
+
+        <li>
+          <a
+            href="https://x.com/bsc_brc"
+            target="_blank"
+            rel="noopener noreferrer">
+            X (Twitter)
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://t.me/bscbrc"
+            target="_blank"
+            rel="noopener noreferrer">
+            Telegram
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/hossain176/bscbrc-website"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHub
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+<div>
+
+    <h4>Legal</h4>
+
+    <ul>
+
+        <li><a href="privacy.html">Privacy Policy</a></li>
+
+        <li><a href="terms.html">Terms of Use</a></li>
+
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+
+    </ul>
+
+</div>
+    
+  </div>
+
+  <div class="copyright">
+
+    <p>
+
+      © 2026 BSCBRC.
+      All rights reserved.
+
+    </p>
+
+  </div>
+
+</footer>
+     <button id="backToTop" aria-label="Back to top">
+↑
+</button>
+
+<script src="script.js"></script>
+
+</body>
+
+  </html>
