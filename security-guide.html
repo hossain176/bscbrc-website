@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-  <html lang="bn">
+<html lang="en">
 
 <head>
 
@@ -8,14 +9,13 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
   
-  <title>Testnet কী? | বাংলা গাইড | BSCBRC</title>
+<title>Web3 Security Guide | Stay Safe in Crypto | BSCBRC</title>
 
-  <meta name="description"
-content="Testnet কী, কেন ব্যবহার করা হয় এবং কীভাবে নিরাপদে Testnet Task সম্পন্ন করবেন—সহজ বাংলায় Beginner-Friendly গাইড।">
+<meta name="description"
+content="Learn how to protect your crypto wallet, avoid phishing scams, secure your assets, and stay safe while using Web3, DeFi, Bridges, and Airdrops.">
   
-    <meta
-name="keywords"
-content="Base Ecosystem, Base Guides, Web3, Crypto, Airdrop, Testnet, Blockchain, DeFi, Onchain, BSCBRC">      
+    <meta name="keywords"
+content="Web3 Security, Crypto Security, Wallet Security, Seed Phrase, Phishing, Scam, Token Approval, DeFi Safety, BSCBRC">
      
 <meta
 name="author"
@@ -24,17 +24,17 @@ content="BSCBRC">
 <meta name="robots" content="index, follow">
 
   <meta property="og:title"
-content="Testnet কী? | বাংলা গাইড | BSCBRC">
+content="Web3 Security Guide | BSCBRC">
 
 <meta property="og:description"
-content="Testnet সম্পর্কে সহজ বাংলায় জানুন। Testnet কীভাবে কাজ করে এবং কেন গুরুত্বপূর্ণ তা শিখুন।">
+content="Learn essential Web3 security practices to protect your wallet and crypto assets.">
 
 <meta
 property="og:type"
 content="website">
   
   <meta property="og:url"
-content="https://bscbrc.xyz/testnet-bn.html">
+content="https://bscbrc.xyz/security-guide.html">
 
 <meta property="og:image" content="https://bscbrc.xyz/assets/og-image.png">
 
@@ -43,10 +43,10 @@ name="twitter:card"
 content="summary_large_image">
 
 <meta name="twitter:title"
-content="Testnet কী? | বাংলা গাইড | BSCBRC">
+content="Web3 Security Guide | BSCBRC">
 
 <meta name="twitter:description"
-content="Testnet সম্পর্কে সহজ বাংলায় Beginner-Friendly গাইড।">
+content="Learn essential Web3 security practices for beginners.">
      
 <meta name="twitter:image" content="https://bscbrc.xyz/assets/og-image.png">
 
@@ -58,13 +58,13 @@ href="manifest.webmanifest">
 
 <meta name="theme-color" content="#0052FF">
 
-  <link rel="canonical"
-href="https://bscbrc.xyz/testnet-bn.html">
+<link rel="canonical"
+href="https://bscbrc.xyz/security-guide.html">
+  
+  <link rel="alternate" hreflang="en" href="https://bscbrc.xyz/security-guide.html">
 
-  <link rel="alternate" hreflang="en" href="https://bscbrc.xyz/testnet-guide.html">
-
-<link rel="alternate" hreflang="bn" href="https://bscbrc.xyz/testnet-bn.html">
-
+<link rel="alternate" hreflang="bn" href="https://bscbrc.xyz/security-bn.html">
+  
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
   <link rel="stylesheet"
@@ -78,10 +78,13 @@ href="style.css">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Testnet কী?",
-  "description": "Testnet সম্পর্কে সহজ বাংলায় Beginner-Friendly গাইড।",
+       
+  "headline": "Understanding Crypto Testnets",
+
+  "description": "A complete beginner-friendly guide to crypto testnets.",
+       
   "author": {
-    "@type": "Organization",
+    "@type": "Person",
     "name": "BSCBRC"
   },
   "publisher": {
@@ -92,54 +95,49 @@ href="style.css">
       "url": "https://bscbrc.xyz/assets/logo.png"
     }
   },
-  "datePublished": "2026-07-16",
-  "dateModified": "2026-07-16",
+  "datePublished": "2026-07-05",
+  "dateModified": "2026-07-05",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://bscbrc.xyz/testnet-bn.html"
+
+       "@id": "https://bscbrc.xyz/testnet-guide.html"
   },
   "image": "https://bscbrc.xyz/assets/og-image.png"
 }
-</script>
-  
-     <script type="application/ld+json">
+     </script>
+     
+<script type="application/ld+json">
 {
   "@context":"https://schema.org",
   "@type":"FAQPage",
-  "mainEntity":[
-    {
-      "@type":"Question",
-      "name":"Testnet কি সম্পূর্ণ ফ্রি?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"হ্যাঁ। অধিকাংশ Testnet সম্পূর্ণ বিনামূল্যে ব্যবহার করা যায় এবং Test Token সাধারণত Faucet থেকে পাওয়া যায়।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"Test Token-এর কি কোনো আর্থিক মূল্য আছে?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"না। Test Token শুধুমাত্র পরীক্ষার জন্য ব্যবহৃত হয় এবং এর কোনো বাস্তব আর্থিক মূল্য নেই।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"Testnet-এ অংশগ্রহণ করলে কি Airdrop নিশ্চিত?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"না। অনেক Project Testnet ব্যবহারকারীদের মূল্যায়ন করতে পারে, তবে Testnet-এ অংশগ্রহণ করলেই Airdrop নিশ্চিত হয় না।"
-      }
-    },
-    {
-      "@type":"Question",
-      "name":"Testnet-এর জন্য কি আলাদা Wallet ব্যবহার করা উচিত?",
-      "acceptedAnswer":{
-        "@type":"Answer",
-        "text":"হ্যাঁ। নিরাপত্তার জন্য Testnet এবং নতুন Project পরীক্ষার ক্ষেত্রে আলাদা Wallet ব্যবহার করা ভালো।"
-      }
+  "mainEntity": [
+  {
+    "@type": "Question",
+    "name": "Do I need real money to use a testnet?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No. Most testnets provide free test tokens through official faucets."
     }
-  ]
+  },
+  {
+    "@type": "Question",
+    "name": "Can testnet participation lead to airdrops?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sometimes. Some projects reward early testnet users, but there is never a guarantee."
+    }
+  },
+  {
+    "@type": "Question",
+    "name": "Is a testnet safe for beginners?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Testnets are designed for learning and testing without risking real funds."
+    }
+  }
+]
+
+  
 }
 </script>
      
@@ -178,32 +176,16 @@ href="style.css">
 
 <ul class="nav-links">
 
+    <li><a href="index.html">Home</a></li>
+  
+  <li><a href="#article">Testnet Guide</a></li>
+
     <li>
-        <a href="index.html">
-            <i class="fa-solid fa-house"></i>
-            Home
-        </a>
+         <a href="about.html">About</a>
     </li>
 
     <li>
-        <a href="#article" class="active">
-            <i class="fa-solid fa-flask"></i>
-            Testnet পরিচিতি
-        </a>
-    </li>
-
-    <li>
-        <a href="about.html">
-            <i class="fa-solid fa-circle-info"></i>
-            About
-        </a>
-    </li>
-
-    <li>
-        <a href="contact.html">
-            <i class="fa-solid fa-envelope"></i>
-            Contact
-        </a>
+         <a href="contact.html">Contact</a>
     </li>
 
 </ul>
@@ -242,151 +224,110 @@ Join Community
 
     <nav class="breadcrumb" aria-label="Breadcrumb">
 
-    <a href="index.html">
-        <i class="fa-solid fa-house"></i>
-        Home
-    </a>
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
 
-    <span class="separator">›</span>
+        <span class="separator">›</span>
 
-    <a href="bangla.html">
-        বাংলা গাইড
-    </a>
+        <span>Testnet Guide</span>
 
-    <span class="separator">›</span>
-
-    <span>Testnet পরিচিতি</span>
-
-</nav>
+    </nav>
 
   </div>
-
-<section class="page-hero">
-
+  
+<!-- Hero Section -->
+  
+<section class="guide-hero">
     <div class="container">
+        <span class="guide-badge">🔒 Security Guide</span>
 
-        <span class="section-badge">
-            🧪 অধ্যায় ৫
-        </span>
+        <h1>Web3 Security Guide</h1>
 
-        <h1>Testnet কী?</h1>
-
-        <p>
-            Testnet কী, কেন ব্যবহার করা হয় এবং কীভাবে নিরাপদে Testnet Task সম্পন্ন করবেন—এই গাইডে সহজ বাংলায় সবকিছু জানুন।
+        <p class="guide-description">
+            Learn how to protect your wallet, avoid phishing attacks,
+            recognize common scams, and safely navigate the Web3 ecosystem
+            with confidence.
         </p>
 
         <div class="guide-meta">
-
-            <span>📘 Beginner বাংলা Guide</span>
-
-            <span>•</span>
-
-            <span>📅 সর্বশেষ আপডেট: জুলাই ২০২৬</span>
-
+            <span>🛡️ Beginner Friendly</span>
+            <span>⏱️ 12 min read</span>
+            <span>📅 Updated 2026</span>
         </div>
-
-        <div class="guide-highlights">
-
-            <h3>📚 এই অধ্যায়ে আপনি শিখবেন</h3>
-
-            <ul>
-
-                <li>✅ Testnet কী</li>
-
-                <li>✅ কেন Testnet গুরুত্বপূর্ণ</li>
-
-                <li>✅ কীভাবে Testnet-এ অংশগ্রহণ করবেন</li>
-
-                <li>✅ Testnet Task কী</li>
-
-                <li>✅ নিরাপদে অংশগ্রহণের নিয়ম</li>
-
-            </ul>
-
-        </div>
-
     </div>
-
 </section>
   
      <section id="article">
 
     <div class="container">
 
-        <div class="article-header">
+        <div class="about-content">
 
-            <h2 id="what-is-testnet">Testnet কী?</h2>
+          <h2 id="what-is-testnet">What is a Testnet?</h2>
+    
+             <div class="toc">
 
-            <div class="toc">
+    <h3>📑 Table of Contents</h3>
 
-                <h3>📑 সূচিপত্র</h3>
+    <ul>
 
-<ul>
+      <li><a href="#what-is-testnet">1. What is a Testnet?</a></li>
 
-    <li><a href="#what-is-testnet">১. Testnet কী?</a></li>
+<li><a href="#why-testnets">2. Why Testnets Matter</a></li>
 
-    <li><a href="#why-testnet">২. কেন Testnet গুরুত্বপূর্ণ?</a></li>
+<li><a href="#popular-testnets">3. Popular Testnets</a></li>
 
-    <li><a href="#popular-testnets">৩. জনপ্রিয় Testnet</a></li>
+<li><a href="#how-to-participate">4. How to Participate</a></li>
 
-    <li><a href="#how-to-participate">৪. কীভাবে অংশগ্রহণ করবেন?</a></li>
+<li><a href="#safety">5. Safety Tips</a></li>
 
-    <li><a href="#security">৫. নিরাপত্তা পরামর্শ</a></li>
+<li><a href="#faq">6. FAQ</a></li>
+      
+    </ul>
 
-    <li><a href="#faq">৬. সাধারণ প্রশ্ন</a></li>
+             </div>
 
-</ul>
-              
+<p>
+A blockchain testnet is a testing environment where developers and users can experiment with decentralized applications without using real funds.
+</p>
 
-            </div>
-
-        </div>
-
-        <p>
-            Testnet হলো একটি পরীক্ষামূলক Blockchain Network, যেখানে Developer এবং ব্যবহারকারীরা বাস্তব অর্থের ঝুঁকি ছাড়াই নতুন Application, Smart Contract এবং বিভিন্ন Feature পরীক্ষা করতে পারেন।
-        </p>
-
-        <p>
-            Testnet-এ ব্যবহৃত Token-এর কোনো বাস্তব আর্থিক মূল্য থাকে না। এগুলো সাধারণত Faucet থেকে বিনামূল্যে পাওয়া যায় এবং শুধুমাত্র পরীক্ষা-নিরীক্ষার জন্য ব্যবহার করা হয়।
-        </p>
-
-        <p>
-            সহজভাবে বলতে গেলে, Testnet হলো Mainnet-এর একটি নিরাপদ অনুশীলন (Practice) পরিবেশ। এখানে ভুল করলে বাস্তব Crypto Asset হারানোর ঝুঁকি থাকে না, তাই নতুন ব্যবহারকারীদের শেখার জন্য এটি একটি আদর্শ জায়গা।
-        </p>
-
-    </div>
-
-</section>
+<p>
+<p>
+Testnets help identify bugs, improve network stability, and give users hands-on experience with blockchain applications before they are deployed to mainnet.
+</p>
+</p>
+          
+             </div>
+     </div>
+          
+ </section>
             
-          <section id="why-testnet">
-
+          <section id="why-testnets">
+                  
     <div class="container">
 
         <div class="about-content">
 
             <span class="section-badge">
-                কেন Testnet?
+                WHY TESTNETS
             </span>
 
-            <h2>কেন Testnet গুরুত্বপূর্ণ?</h2>
+          <h2 id="why-testnets">Why Testnets Matter</h2>
+<p>
+Testnets allow developers to test new features and smart contracts in a safe environment before deploying them to the main blockchain.
+</p>
 
-            <p>
-                Testnet-এর মূল উদ্দেশ্য হলো নতুন Blockchain, Smart Contract এবং Decentralized Application (DApp) বাস্তব Network-এ চালুর আগে নিরাপদভাবে পরীক্ষা করা। এতে Developer-রা সম্ভাব্য Bug বা সমস্যা আগে থেকেই শনাক্ত করতে পারেন।
-            </p>
-
-            <p>
-                নতুন ব্যবহারকারীদের জন্যও Testnet একটি দারুণ শেখার মাধ্যম। এখানে Wallet Connect, Token Transfer, Swap, Bridge বা অন্যান্য Web3 কার্যক্রম বাস্তব অর্থের ঝুঁকি ছাড়াই অনুশীলন করা যায়।
-            </p>
-
-            <p>
-                অনেক Project তাদের Testnet-এ সক্রিয় ব্যবহারকারীদের মূল্যায়ন করে এবং ভবিষ্যতে Reward বা Airdrop দেওয়ার সিদ্ধান্ত নিতে পারে। তবে মনে রাখবেন, Testnet-এ অংশগ্রহণ করলেই Airdrop নিশ্চিত হয় না।
-            </p>
-
+<p>
+For users, participating in testnets is a great way to learn Web3, provide valuable feedback, and sometimes become eligible for future rewards.
+</p>
+          
         </div>
 
     </div>
 
-</section>
+             </section>
 
          <section id="popular-testnets">
 
@@ -394,245 +335,150 @@ Join Community
 
         <div class="about-content">
 
-            <span class="section-badge">
-                জনপ্রিয় Testnet
-            </span>
+          <span class="section-badge">POPULAR TESTNETS</span>
 
-            <h2>কিছু জনপ্রিয় Testnet Network</h2>
+          <h2>Popular Testnets</h2>
 
-            <p>
-                <strong>🔵 Base Sepolia</strong><br>
-                Base Ecosystem-এর অফিসিয়াল Testnet। Base-এর নতুন DApp এবং Smart Contract পরীক্ষার জন্য এটি ব্যাপকভাবে ব্যবহৃত হয়।
-            </p>
+          <p>
+Many blockchain projects launch public testnets before their mainnet release.
+</p>
 
-            <p>
-                <strong>⛓️ Ethereum Sepolia</strong><br>
-                Ethereum-এর অন্যতম জনপ্রিয় Testnet। অনেক Project এখানেই তাদের Smart Contract পরীক্ষা করে।
-            </p>
-
-            <p>
-                <strong>🟣 OP Sepolia</strong><br>
-                Optimism Ecosystem-এর Testnet, যেখানে Layer 2 Application পরীক্ষা করা হয়।
-            </p>
-
-            <p>
-                <strong>🔷 Arbitrum Sepolia</strong><br>
-                Arbitrum Network-এর Testnet। Developer এবং Tester-রা নতুন Feature ও DApp পরীক্ষা করতে এটি ব্যবহার করেন।
-            </p>
-
-            <p>
-                মনে রাখবেন, কোন Testnet ব্যবহার করবেন তা সম্পূর্ণভাবে নির্ভর করবে আপনি যে Project-এ অংশ নিচ্ছেন তার নির্দেশনার উপর।
-            </p>
+<ul>
+    <li><strong>Monad Testnet</strong></li>
+    <li><strong>MegaETH Testnet</strong></li>
+    <li><strong>Soneium Testnet</strong></li>
+    <li><strong>Pharos Testnet</strong></li>
+</ul>
 
         </div>
 
     </div>
 
-</section>
+     </section>
 
-        <section id="how-to-participate">
+         <section id="how-to-participate">
 
     <div class="container">
 
         <div class="about-content">
 
-            <span class="section-badge">
-                কীভাবে অংশগ্রহণ করবেন?
-            </span>
+          <span class="section-badge">HOW TO PARTICIPATE</span>
 
-            <h2>Testnet-এ কীভাবে অংশগ্রহণ করবেন?</h2>
+          <h2>How to Participate</h2>
 
-            <p>
-                Testnet-এ অংশগ্রহণ করার জন্য প্রথমে একটি Web3 Wallet (যেমন MetaMask, Rabby বা Coinbase Wallet) প্রস্তুত করুন। এরপর Project-এর অফিসিয়াল Website-এ গিয়ে Wallet Connect করুন।
-            </p>
+          <p>
+Getting started with a testnet is simple and usually requires only a crypto wallet and test tokens.
+</p>
 
-            <p>
-                অধিকাংশ Testnet Project বিনামূল্যে Test Token দেয়, যা সাধারণত Faucet থেকে সংগ্রহ করা যায়। এই Token ব্যবহার করে Swap, Bridge, Mint, Staking বা অন্যান্য Testnet Task সম্পন্ন করা হয়।
-            </p>
-
-            <div class="guide-highlights">
-
-                <h3>📝 অংশগ্রহণের ধাপ</h3>
-
-                <ul>
-
-                    <li>① অফিসিয়াল Website-এ প্রবেশ করুন</li>
-
-                    <li>② Wallet Connect করুন</li>
-
-                    <li>③ Faucet থেকে Test Token নিন</li>
-
-                    <li>④ নির্দেশনা অনুযায়ী Task সম্পন্ন করুন</li>
-
-                    <li>⑤ Transaction সফল হয়েছে কিনা যাচাই করুন</li>
-
-                </ul>
-
-            </div>
-
-            <p>
-                সবসময় Project-এর অফিসিয়াল Guide অনুসরণ করুন এবং অপ্রয়োজনীয় Transaction বা Wallet Permission এড়িয়ে চলুন।
-            </p>
+<ul>
+    <li>Set up a compatible wallet such as MetaMask or Rabby.</li>
+    <li>Add the project's testnet network.</li>
+    <li>Request free test tokens from the official faucet.</li>
+    <li>Complete onchain tasks and provide feedback if requested.</li>
+</ul>
 
         </div>
 
     </div>
 
-</section>
+     </section>
   
- <section id="security">
+         <section id="safety">
 
     <div class="container">
 
         <div class="about-content">
 
-            <span class="section-badge">
-                🔒 নিরাপত্তা
-            </span>
+          <span class="section-badge">SAFETY TIPS</span>
 
-            <h2>Testnet ব্যবহার করার সময় নিরাপত্তা পরামর্শ</h2>
+          <h2>Safety Tips</h2>
 
-            <p>
-                <strong>🌐 শুধুমাত্র অফিসিয়াল Website ব্যবহার করুন।</strong><br>
-                Testnet Task শুরু করার আগে Project-এর অফিসিয়াল Website এবং Social Media যাচাই করুন।
-            </p>
+          <p>
+          Even though testnets use free tokens, you should always follow good security practices.
+          </p>
 
-            <p>
-                <strong>🔑 Secret Recovery Phrase বা Private Key কখনোই শেয়ার করবেন না।</strong><br>
-                কোনো আসল Testnet Project আপনার Secret Recovery Phrase চাইবে না।
-            </p>
-
-            <p>
-                <strong>👛 Testnet-এর জন্য আলাদা Wallet ব্যবহার করুন।</strong><br>
-                এতে আপনার মূল Crypto Asset আরও নিরাপদ থাকবে।
-            </p>
-
-            <p>
-                <strong>⚠️ Test Token-এর কোনো বাস্তব মূল্য নেই।</strong><br>
-                কেউ যদি Test Token বিক্রি করতে চায় বা কিনতে বলে, তাহলে সতর্ক থাকুন।
-            </p>
-
+<ul>
+    <li>Always use official project links.</li>
+    <li>Never share your Secret Recovery Phrase.</li>
+    <li>Use a separate wallet for testnet activities.</li>
+    <li>Be careful of fake faucets and phishing websites.</li>
+</ul>
+          
         </div>
 
     </div>
 
-</section>
+     </section>
 
-<section>
 
-    <div class="container">
-
-        <div class="guide-highlights">
-
-            <h3>💡 BSCBRC Tips</h3>
-
-            <ul>
-
-                <li>✅ Testnet শেখার জন্য করুন, শুধু Airdrop-এর আশায় নয়।</li>
-
-                <li>✅ Test Token-এর কোনো বাস্তব আর্থিক মূল্য নেই।</li>
-
-                <li>✅ শুধুমাত্র অফিসিয়াল Website এবং Faucet ব্যবহার করুন।</li>
-
-                <li>✅ Testnet-এর জন্য আলাদা Wallet ব্যবহার করা নিরাপদ।</li>
-
-            </ul>
-
-        </div>
-
-    </div>
-
-</section>
-  
-<section id="faq">
+     <section id="faq">
 
     <div class="container">
 
         <div class="about-content">
 
-            <span class="section-badge">
-                ❓ সাধারণ প্রশ্ন
-            </span>
+            <span class="section-badge">FAQ</span>
 
-            <h2>প্রায় জিজ্ঞাসিত প্রশ্ন (FAQ)</h2>
+            <h2>Frequently Asked Questions</h2>
 
-            <p>
-                <strong>Testnet কি ফ্রি?</strong><br>
-                হ্যাঁ। অধিকাংশ Testnet সম্পূর্ণ বিনামূল্যে ব্যবহার করা যায়।
-            </p>
+          <p>
+<strong>Do I need real money to use a testnet?</strong><br>
+No. Most testnets provide free test tokens through official faucets.
+</p>
 
-            <p>
-                <strong>Test Token-এর কি কোনো মূল্য আছে?</strong><br>
-                না। Test Token শুধুমাত্র পরীক্ষার জন্য ব্যবহৃত হয় এবং এর কোনো বাস্তব আর্থিক মূল্য নেই।
-            </p>
+<p>
+<strong>Can testnet participation lead to airdrops?</strong><br>
+Sometimes. Some projects reward early testnet users, but there is never a guarantee.
+</p>
 
-            <p>
-                <strong>Testnet করলে কি Airdrop নিশ্চিত?</strong><br>
-                না। Testnet-এ অংশগ্রহণ করলেই Airdrop নিশ্চিত হয় না।
-            </p>
+<p>
+<strong>Is a testnet safe for beginners?</strong><br>
+Yes. Testnets are designed for learning and testing without risking real funds.
+</p>
 
-            <p>
-                <strong>Testnet-এর জন্য কি আলাদা Wallet ব্যবহার করা উচিত?</strong><br>
-                হ্যাঁ। নিরাপত্তার জন্য আলাদা Wallet ব্যবহার করা ভালো।
-            </p>
-
+          
         </div>
 
     </div>
 
-</section>
+     </section>
 
     <section class="related-guides">
 
-    <h2>📚 পরবর্তী অধ্যায়</h2>
+    <h2>📚 Continue Learning</h2>
 
     <div class="related-grid">
 
-        <a href="security-bn.html" class="related-card">
-
-            <span>🔒 নিরাপত্তা গাইড</span>
-
-            <p>
-                Wallet, Bridge এবং Crypto Asset কীভাবে নিরাপদ রাখবেন তা শিখুন।
-            </p>
-
+        <a href="base-guide.html" class="related-card">
+            <span>🔵 Base Guide</span>
+            <p>Learn the fundamentals of the Base ecosystem.</p>
         </a>
 
-        <a href="airdrop-bn.html" class="related-card">
-
-            <span>🪂 Airdrop পরিচিতি</span>
-
-            <p>
-                Airdrop কী, কীভাবে অংশগ্রহণ করবেন এবং Scam এড়াবেন তা জানুন।
-            </p>
-
+        <a href="wallet-guide.html" class="related-card">
+            <span>👛 Wallet Guide</span>
+            <p>Learn how crypto wallets work and keep your assets safe.</p>
         </a>
 
-        <a href="bridge-bn.html" class="related-card">
-
-            <span>🌉 Bridge পরিচিতি</span>
-
-            <p>
-                Blockchain Bridge ব্যবহার করে নিরাপদে Token স্থানান্তর করা শিখুন।
-            </p>
-
+        <a href="airdrop-guide.html" class="related-card">
+            <span>🪂 Airdrop Guide</span>
+            <p>Learn how to identify and participate in quality airdrops.</p>
         </a>
 
     </div>
 
-</section>
+    </section>
 
   <div class="guide-navigation">
 
-    <a href="airdrop-bn.html" class="prev-guide">
-        ← পূর্ববর্তী অধ্যায়: Airdrop
+    <a href="airdrop-guide.html" class="prev-guide">
+        ← Airdrop Guide
     </a>
 
-    <a href="security-bn.html" class="next-guide">
-        পরবর্তী অধ্যায়: Security →
+    <a href="index.html" class="next-guide">
+        Back to Home →
     </a>
 
-</div>
+  </div>
   
 <!-- ===========================
      FOOTER
@@ -663,17 +509,17 @@ Join Community
 
     <div>
 
-      <h4>নেভিগেশন</h4>
+      <h4>Navigation</h4>
 
       <ul>
 
            <li><a href="index.html">Home</a></li>
            
         <li>
-        <a href="#article">Testnet কী?</a>
+        <a href="#article">What is a Testnet?</a>
         </li>
            
-        <li><a href="#top">↑ উপরে যান</a></li>
+        <li><a href="#top">Back to Top</a></li>
 
       </ul>
 
@@ -681,7 +527,7 @@ Join Community
 
     <div>
 
-      <h4>কমিউনিটি</h4>
+      <h4>Community</h4>
 
       <ul>
 
@@ -718,7 +564,7 @@ Join Community
 
 <div>
 
-    <h4>আইনগত তথ্য</h4>
+    <h4>Legal</h4>
 
     <ul>
 
