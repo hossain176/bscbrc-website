@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+  
+<title>Web3 Security Guide | Stay Safe in Crypto | BSCBRC</title>
+
+<meta name="description"
+content="Learn how to protect your crypto wallet, avoid phishing scams, secure your assets, and stay safe while using Web3, DeFi, Bridges, and Airdrops.">
+  
+    <meta name="keywords"
+content="Web3 Security, Crypto Security, Wallet Security, Seed Phrase, Phishing, Scam, Token Approval, DeFi Safety, BSCBRC">
+     
+<meta
+name="author"
+content="BSCBRC">
+
+<meta name="robots" content="index, follow">
+
+  <meta property="og:title"
+content="Web3 Security Guide | BSCBRC">
+
+<meta property="og:description"
+content="Learn essential Web3 security practices to protect your wallet and crypto assets.">
+
+<meta
+property="og:type"
+content="website">
+  
+  <meta property="og:url"
+content="https://bscbrc.xyz/security-guide.html">
+
+<meta property="og:image" content="https://bscbrc.xyz/assets/og-image.png">
+
+<meta
+name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="Web3 Security Guide | BSCBRC">
+
+<meta name="twitter:description"
+content="Learn essential Web3 security practices for beginners.">
+     
+<meta name="twitter:image" content="https://bscbrc.xyz/assets/og-image.png">
+
+     <link rel="icon" href="/favicon.ico" sizes="any">
+     
+<link
+rel="manifest"
+href="manifest.webmanifest">
+
+<meta name="theme-color" content="#0052FF">
+
+<link rel="canonical"
+href="https://bscbrc.xyz/security-guide.html">
+  
+  <link rel="alternate" hreflang="en" href="https://bscbrc.xyz/security-guide.html">
+
+<link rel="alternate" hreflang="bn" href="https://bscbrc.xyz/security-bn.html">
+  
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+<link
+rel="stylesheet"
+href="style.css">
+
+     <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+
+  "headline": "Web3 Security Guide",
+
+  "description": "A complete beginner-friendly guide to Web3 security, wallet protection, phishing prevention, and crypto safety.",
+
+  "author": {
+    "@type": "Person",
+    "name": "BSCBRC"
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": "BSCBRC",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://bscbrc.xyz/assets/logo.png"
+    }
+  },
+
+  "datePublished": "2026-07-18",
+  "dateModified": "2026-07-18",
+
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://bscbrc.xyz/security-guide.html"
+  },
+
+  "image": "https://bscbrc.xyz/assets/og-image.png"
+}
+</script>
+     
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+
+  "mainEntity":[
+
+    {
+      "@type":"Question",
+      "name":"What is the most important rule in Web3 security?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"Never share your Secret Recovery Phrase with anyone."
+      }
+    },
+
+    {
+      "@type":"Question",
+      "name":"Should I use the same wallet for everything?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"No. Using separate wallets for long-term holdings and testing new dApps is recommended."
+      }
+    },
+
+    {
+      "@type":"Question",
+      "name":"Can blockchain transactions be reversed?",
+      "acceptedAnswer":{
+        "@type":"Answer",
+        "text":"No. Most blockchain transactions are permanent once confirmed."
+      }
+    }
+
+  ]
+}
+</script>
+     
+</head>
+      
+<body id="top">
+     
+     <div id="progress-bar"></div>
+     
+     <!-- Loading Screen -->
+  
+<div id="loader">
+    <div class="loader-content">
+        <img src="assets/logo.png" alt="BSCBRC Logo">
+        <h2>BSCBRC</h2>
+    </div>
+</div>
+
+<header class="navbar">
+
+<div class="container">
+
+     <a href="index.html" class="logo">
+
+<img src="assets/logo.png"
+     alt="BSCBRC Logo"
+     width="44"
+     height="44"
+     loading="eager">
+
+<span>BSCBRC</span>
+
+</a>
+
+<nav>
+
+<ul class="nav-links">
+
+    <li>
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+    </li>
+
+    <li>
+        <a href="security-guide.html" class="active">
+            <i class="fa-solid fa-shield-halved"></i>
+            Security Guide
+        </a>
+    </li>
+
+    <li>
+        <a href="about.html">
+            <i class="fa-solid fa-circle-info"></i>
+            About
+        </a>
+    </li>
+
+    <li>
+        <a href="contact.html">
+            <i class="fa-solid fa-envelope"></i>
+            Contact
+        </a>
+    </li>
+
+</ul>
+
+<button id="themeToggle" class="theme-toggle" aria-label="Toggle Theme">
+
+    <i class="fa-solid fa-lightbulb"></i>
+
+</button>
+  
+     <button class="menu-toggle" aria-label="Menu">
+    ☰
+     </button>
+
+</nav>
+
+<a
+
+href="https://x.com/bsc_brc"
+
+target="_blank"
+
+rel="noopener noreferrer"
+
+class="follow-btn">
+
+Join Community
+
+</a>
+
+</div>
+
+</header>
+
+  <div class="container">
+
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+
+        <a href="index.html">
+            <i class="fa-solid fa-house"></i>
+            Home
+        </a>
+
+        <span class="separator">›</span>
+
+      <span>Security Guide</span>
+
+    </nav>
+
+  </div>
+  
+<!-- Hero Section -->
+  
+<section class="guide-hero">
+    <div class="container">
+        <span class="guide-badge">🔒 Security Guide</span>
+
+        <h1>Web3 Security Guide</h1>
+
+        <p class="guide-description">
+            Learn how to protect your wallet, avoid phishing attacks,
+            recognize common scams, and safely navigate the Web3 ecosystem
+            with confidence.
+        </p>
+
+        <div class="guide-meta">
+            <span>🛡️ Beginner Friendly</span>
+            <span>⏱️ 12 min read</span>
+            <span>📅 Updated 2026</span>
+        </div>
+    </div>
+</section>
+  
+<section id="article">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <h2 id="what-is-security">What is Web3 Security?</h2>
+
+            <div class="toc">
+
+                <h3>📑 Table of Contents</h3>
+
+                <ul>
+
+                    <li><a href="#what-is-security">1. What is Web3 Security?</a></li>
+
+                    <li><a href="#why-security">2. Why Web3 Security Matters</a></li>
+
+                    <li><a href="#common-scams">3. Common Crypto Scams</a></li>
+
+                    <li><a href="#how-to-stay-safe">4. How to Stay Safe</a></li>
+
+                    <li><a href="#best-practices">5. Security Best Practices</a></li>
+
+                    <li><a href="#faq">6. FAQ</a></li>
+
+                </ul>
+
+            </div>
+
+            <p>
+                Web3 Security is the practice of protecting your wallet,
+                digital assets, and personal information while using
+                blockchain applications.
+            </p>
+
+            <p>
+                Unlike traditional banking, blockchain transactions are
+                usually irreversible. A single mistake—such as signing a
+                malicious transaction or revealing your Secret Recovery
+                Phrase—can permanently result in the loss of your assets.
+            </p>
+
+            <p>
+                Understanding Web3 security helps you confidently use
+                wallets, DeFi, NFT marketplaces, bridges, and airdrops
+                while reducing the risk of scams and attacks.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+            
+<section id="why-security">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">
+                WHY SECURITY MATTERS
+            </span>
+
+            <h2 id="why-security">Why Web3 Security Matters</h2>
+
+            <p>
+                In Web3, you are fully responsible for your wallet and digital assets.
+                Unlike traditional banks, blockchain transactions are usually irreversible,
+                meaning stolen funds cannot easily be recovered.
+            </p>
+
+            <p>
+                Learning good security habits helps you avoid scams, protect your crypto,
+                and confidently explore wallets, DeFi, NFTs, bridges, and airdrops.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="common-scams">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">COMMON SCAMS</span>
+
+            <h2>Common Crypto Scams</h2>
+
+            <p>
+                Knowing the most common scams is one of the best ways to stay safe in Web3.
+            </p>
+
+            <ul>
+                <li><strong>🎣 Phishing Websites</strong> – Fake websites designed to steal your wallet.</li>
+
+                <li><strong>📩 Fake Support</strong> – Scammers pretending to be official project staff.</li>
+
+                <li><strong>🪂 Fake Airdrops</strong> – Fake reward campaigns that trick users into signing malicious transactions.</li>
+
+                <li><strong>🔑 Seed Phrase Scams</strong> – Anyone asking for your Secret Recovery Phrase is trying to steal your wallet.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+         <section id="how-to-stay-safe">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">HOW TO STAY SAFE</span>
+
+            <h2>How to Stay Safe</h2>
+
+            <p>
+                Following a few simple habits can greatly reduce the risk of
+                losing your crypto assets.
+            </p>
+
+            <ul>
+                <li>Always verify URLs before connecting your wallet.</li>
+                <li>Bookmark official websites instead of clicking random links.</li>
+                <li>Never share your Secret Recovery Phrase with anyone.</li>
+                <li>Use a separate wallet for testing new dApps and airdrops.</li>
+                <li>Review every wallet transaction carefully before signing.</li>
+                <li>Enable two-factor authentication (2FA) wherever possible.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+  
+  <section id="best-practices">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">BEST PRACTICES</span>
+
+            <h2>Security Best Practices</h2>
+
+            <p>
+                Good security habits are your strongest defense against scams
+                and wallet attacks.
+            </p>
+
+            <ul>
+                <li>🔐 Store your Secret Recovery Phrase offline.</li>
+                <li>🛡️ Keep your wallet and browser updated.</li>
+                <li>🔍 Double-check wallet permissions before approving transactions.</li>
+                <li>💻 Avoid connecting your wallet on public or shared devices.</li>
+                <li>📚 Stay informed about the latest crypto scams.</li>
+                <li>⚠️ If something seems too good to be true, it probably is.</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="faq">
+
+    <div class="container">
+
+        <div class="about-content">
+
+            <span class="section-badge">FAQ</span>
+
+            <h2>Frequently Asked Questions</h2>
+
+            <p>
+                <strong>What is the most important rule in Web3 security?</strong><br>
+                Never share your Secret Recovery Phrase with anyone. Legitimate projects will never ask for it.
+            </p>
+
+            <p>
+                <strong>Should I use the same wallet for everything?</strong><br>
+                No. It's a good practice to use separate wallets for long-term holdings and for testing new dApps or airdrops.
+            </p>
+
+            <p>
+                <strong>Can a blockchain transaction be reversed?</strong><br>
+                In most cases, no. Once a transaction is confirmed on the blockchain, it cannot be undone.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <section class="related-guides">
+
+    <h2>📚 Continue Learning</h2>
+
+    <div class="related-grid">
+
+        <a href="base-guide.html" class="related-card">
+            <span>🔵 Base Guide</span>
+            <p>Learn the fundamentals of the Base ecosystem.</p>
+        </a>
+
+        <a href="wallet-guide.html" class="related-card">
+            <span>👛 Wallet Guide</span>
+            <p>Learn how crypto wallets work and keep your assets safe.</p>
+        </a>
+
+        <a href="bridge-guide.html" class="related-card">
+            <span>🌉 Bridge Guide</span>
+            <p>Learn how to transfer assets safely across blockchain networks.</p>
+        </a>
+
+        <a href="airdrop-guide.html" class="related-card">
+            <span>🪂 Airdrop Guide</span>
+            <p>Learn how to identify and participate in quality airdrops.</p>
+        </a>
+
+        <a href="testnet-guide.html" class="related-card">
+            <span>🧪 Testnet Guide</span>
+            <p>Practice safely and build real onchain experience.</p>
+        </a>
+
+    </div>
+
+</section>
+
+  <div class="guide-navigation">
+
+    <a href="testnet-guide.html" class="prev-guide">
+        ← Testnet Guide
+    </a>
+
+    <a href="index.html" class="next-guide">
+        Back to Home →
+    </a>
+
+</div>
+  
+<!-- ===========================
+     FOOTER
+============================ -->
+
+<footer>
+
+  <div class="container footer-grid">
+
+    <div>
+
+         <img
+    src="assets/logo.png"
+    alt="BSCBRC Logo"
+    class="footer-logo"
+    width="44"
+    height="44">
+
+      <h3>BSCBRC</h3>
+
+      <p>
+
+        Learning, Testing & Building on Base.
+
+      </p>
+
+    </div>
+
+    <div>
+
+      <h4>Navigation</h4>
+
+      <ul>
+
+           <li><a href="index.html">Home</a></li>
+           
+        <li>
+          <a href="#article">What is Web3 Security?</a>
+        </li>
+           
+        <li><a href="#top">Back to Top</a></li>
+
+      </ul>
+
+    </div>
+
+    <div>
+
+      <h4>Community</h4>
+
+      <ul>
+
+        <li>
+          <a
+            href="https://x.com/bsc_brc"
+            target="_blank"
+            rel="noopener noreferrer">
+            X (Twitter)
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://t.me/bscbrc"
+            target="_blank"
+            rel="noopener noreferrer">
+            Telegram
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/hossain176/bscbrc-website"
+            target="_blank"
+            rel="noopener noreferrer">
+            GitHub
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+<div>
+
+    <h4>Legal</h4>
+
+    <ul>
+
+        <li><a href="privacy.html">Privacy Policy</a></li>
+
+        <li><a href="terms.html">Terms of Use</a></li>
+
+        <li><a href="disclaimer.html">Disclaimer</a></li>
+
+    </ul>
+
+</div>
+    
+  </div>
+
+  <div class="copyright">
+
+    <p>
+
+      © 2026 BSCBRC.
+      All rights reserved.
+
+    </p>
+
+  </div>
+
+</footer>
+     <button id="backToTop" aria-label="Back to top">
+↑
+</button>
+
+<script src="script.js"></script>
+
+</body>
+
+      </html>
