@@ -26,20 +26,19 @@ scroll-behavior:smooth;
     text-decoration:none;
 }
 
-.logo img{
-    width:44px;
-    height:44px;
+   .logo img{
+    width:40px;
+    height:40px;
     display:block;
     object-fit:contain;
 }
 
 .logo span{
-    font-size:1.2rem;
-    font-weight:700;
+    font-size:1.1rem;
+    font-weight:600;
     color:#fff;
-    letter-spacing:.4px;
+    letter-spacing:.2px;
 }
-
 
 body{
 overflow-x:hidden;
